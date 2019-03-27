@@ -56,7 +56,7 @@ Discarded input sections
  .data          0x0000000000000000        0x0 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .bss           0x0000000000000000        0x0 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .xt.lit        0x0000000000000000       0x60 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .xt.prop       0x0000000000000000      0x63c /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .xt.prop       0x0000000000000000      0x624 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .text          0x0000000000000000        0x0 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
  .data          0x0000000000000000        0x0 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
  .bss           0x0000000000000000        0x0 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
@@ -93,7 +93,7 @@ Discarded input sections
  .data          0x0000000000000000        0x0 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
  .bss           0x0000000000000000        0x0 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
  .xt.lit        0x0000000000000000        0x8 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .xt.prop       0x0000000000000000       0x60 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .xt.prop       0x0000000000000000       0x48 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
  .text          0x0000000000000000        0x0 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
  .data          0x0000000000000000        0x0 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
  .bss           0x0000000000000000        0x0 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
@@ -936,7 +936,7 @@ END GROUP
  *(.gnu.version)
                 0x000000004007ab8d                _loader_text_end = ABSOLUTE (.)
 
-.iram.text      0x0000000040080400     0x1a21
+.iram.text      0x0000000040080400     0x19e5
                 0x0000000040080400                . = ALIGN (0x10)
  *(.entry.text)
  *(.init.literal)
@@ -973,20 +973,20 @@ END GROUP
  .literal.update_flash_config
                 0x00000000400804e4       0x20 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .literal.bootloader_main
-                0x0000000040080504       0x34 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
-                                         0xb4 (size before relaxing)
+                0x0000000040080504       0x2c /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                                         0xa4 (size before relaxing)
  .literal.__assert_func
-                0x0000000040080538        0x4 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000040080530        0x4 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0x10 (size before relaxing)
  .literal.bootloader_init
-                0x000000004008053c       0x48 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000040080534       0x48 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0x74 (size before relaxing)
  .literal.abort
-                0x0000000040080584        0x8 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x000000004008057c        0x8 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0x10 (size before relaxing)
  .literal.bootloader_clock_configure
-                0x000000004008058c       0x10 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
-                                         0x28 (size before relaxing)
+                0x0000000040080584       0x18 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+                                         0x2c (size before relaxing)
  .literal.execute_flash_command
                 0x000000004008059c       0x38 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
                                          0x3c (size before relaxing)
@@ -1117,187 +1117,187 @@ END GROUP
  .text.update_flash_config
                 0x0000000040080ab4       0x68 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .text.bootloader_main
-                0x0000000040080b1c      0x110 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
-                                        0x15c (size before relaxing)
+                0x0000000040080b1c       0xe0 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                                        0x128 (size before relaxing)
  .text.__assert_func
-                0x0000000040080c2c       0x1f /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000040080bfc       0x1f /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0x23 (size before relaxing)
-                0x0000000040080c2c                __assert_func
- *fill*         0x0000000040080c4b        0x1 
+                0x0000000040080bfc                __assert_func
+ *fill*         0x0000000040080c1b        0x1 
  .text.bootloader_init
-                0x0000000040080c4c      0x12a /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000040080c1c      0x12a /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                         0x13a (size before relaxing)
-                0x0000000040080c4c                bootloader_init
- *fill*         0x0000000040080d76        0x2 
- .text.abort    0x0000000040080d78       0x2c /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x0000000040080c1c                bootloader_init
+ *fill*         0x0000000040080d46        0x2 
+ .text.abort    0x0000000040080d48       0x2c /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
                                          0x2f (size before relaxing)
-                0x0000000040080d78                abort
- *fill*         0x0000000040080da4        0x0 
+                0x0000000040080d48                abort
+ *fill*         0x0000000040080d74        0x0 
  .text.bootloader_clock_configure
-                0x0000000040080da4       0x7a /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
-                                         0x82 (size before relaxing)
-                0x0000000040080da4                bootloader_clock_configure
- *fill*         0x0000000040080e1e        0x2 
+                0x0000000040080d74       0x6e /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+                                         0x76 (size before relaxing)
+                0x0000000040080d74                bootloader_clock_configure
+ *fill*         0x0000000040080de2        0x2 
  .text.execute_flash_command
-                0x0000000040080e20      0x190 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x0000000040080de4      0x190 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
  .text.bootloader_read_flash_id
-                0x0000000040080fb0       0x27 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+                0x0000000040080f74       0x27 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
                                          0x2b (size before relaxing)
-                0x0000000040080fb0                bootloader_read_flash_id
- *fill*         0x0000000040080fd7        0x1 
+                0x0000000040080f74                bootloader_read_flash_id
+ *fill*         0x0000000040080f9b        0x1 
  .text.rtc_vddsdio_get_config
-                0x0000000040080fd8      0x104 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_init.o)
-                0x0000000040080fd8                rtc_vddsdio_get_config
+                0x0000000040080f9c      0x104 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_init.o)
+                0x0000000040080f9c                rtc_vddsdio_get_config
  .text.rtc_vddsdio_set_config
-                0x00000000400810dc       0x46 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_init.o)
-                0x00000000400810dc                rtc_vddsdio_set_config
- *fill*         0x0000000040081122        0x2 
+                0x00000000400810a0       0x46 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_init.o)
+                0x00000000400810a0                rtc_vddsdio_set_config
+ *fill*         0x00000000400810e6        0x2 
  .text.rtc_clk_xtal_freq_estimate
-                0x0000000040081124       0xa6 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+                0x00000000400810e8       0xa6 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
                                          0xb2 (size before relaxing)
- *fill*         0x00000000400811ca        0x2 
+ *fill*         0x000000004008118e        0x2 
  .text.rtc_clk_init
-                0x00000000400811cc      0x1da /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+                0x0000000040081190      0x1da /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
                                         0x20a (size before relaxing)
-                0x00000000400811cc                rtc_clk_init
- *fill*         0x00000000400813a6        0x2 
+                0x0000000040081190                rtc_clk_init
+ *fill*         0x000000004008136a        0x2 
  .text.rtc_clk_32k_enable_common
-                0x00000000400813a8       0x81 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
- *fill*         0x0000000040081429        0x3 
+                0x000000004008136c       0x81 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ *fill*         0x00000000400813ed        0x3 
  .text.rtc_clk_bbpll_disable
-                0x000000004008142c       0x3e /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
- *fill*         0x000000004008146a        0x2 
+                0x00000000400813f0       0x3e /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ *fill*         0x000000004008142e        0x2 
  .text.rtc_clk_bbpll_enable
-                0x000000004008146c       0x66 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
- *fill*         0x00000000400814d2        0x2 
+                0x0000000040081430       0x66 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ *fill*         0x0000000040081496        0x2 
  .text.rtc_clk_32k_enable
-                0x00000000400814d4       0x2d /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x00000000400814d4                rtc_clk_32k_enable
- *fill*         0x0000000040081501        0x3 
+                0x0000000040081498       0x2d /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081498                rtc_clk_32k_enable
+ *fill*         0x00000000400814c5        0x3 
  .text.rtc_clk_8m_enable
-                0x0000000040081504       0x9b /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x0000000040081504                rtc_clk_8m_enable
- *fill*         0x000000004008159f        0x1 
+                0x00000000400814c8       0x9b /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400814c8                rtc_clk_8m_enable
+ *fill*         0x0000000040081563        0x1 
  .text.rtc_clk_8m_enabled
-                0x00000000400815a0       0x19 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x00000000400815a0                rtc_clk_8m_enabled
- *fill*         0x00000000400815b9        0x3 
+                0x0000000040081564       0x19 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081564                rtc_clk_8m_enabled
+ *fill*         0x000000004008157d        0x3 
  .text.rtc_clk_8md256_enabled
-                0x00000000400815bc       0x1a /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x00000000400815bc                rtc_clk_8md256_enabled
- *fill*         0x00000000400815d6        0x2 
+                0x0000000040081580       0x1a /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081580                rtc_clk_8md256_enabled
+ *fill*         0x000000004008159a        0x2 
  .text.rtc_clk_slow_freq_set
-                0x00000000400815d8       0x48 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x00000000400815d8                rtc_clk_slow_freq_set
+                0x000000004008159c       0x48 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004008159c                rtc_clk_slow_freq_set
  .text.rtc_clk_slow_freq_get
-                0x0000000040081620       0x10 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x0000000040081620                rtc_clk_slow_freq_get
+                0x00000000400815e4       0x10 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400815e4                rtc_clk_slow_freq_get
  .text.rtc_clk_slow_freq_get_hz
-                0x0000000040081630       0x29 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x0000000040081630                rtc_clk_slow_freq_get_hz
- *fill*         0x0000000040081659        0x3 
+                0x00000000400815f4       0x29 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400815f4                rtc_clk_slow_freq_get_hz
+ *fill*         0x000000004008161d        0x3 
  .text.rtc_clk_fast_freq_set
-                0x000000004008165c       0x2a /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x000000004008165c                rtc_clk_fast_freq_set
- *fill*         0x0000000040081686        0x2 
+                0x0000000040081620       0x2a /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081620                rtc_clk_fast_freq_set
+ *fill*         0x000000004008164a        0x2 
  .text.rtc_clk_fast_freq_get
-                0x0000000040081688       0x10 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x0000000040081688                rtc_clk_fast_freq_get
+                0x000000004008164c       0x10 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004008164c                rtc_clk_fast_freq_get
  .text.rtc_clk_bbpll_configure
-                0x0000000040081698      0x189 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004008165c      0x189 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                         0x18d (size before relaxing)
-                0x0000000040081698                rtc_clk_bbpll_configure
- *fill*         0x0000000040081821        0x3 
+                0x000000004008165c                rtc_clk_bbpll_configure
+ *fill*         0x00000000400817e5        0x3 
  .text.rtc_clk_xtal_freq_get
-                0x0000000040081824       0x35 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x0000000040081824                rtc_get_xtal
-                0x0000000040081824                rtc_clk_xtal_freq_get
- *fill*         0x0000000040081859        0x3 
+                0x00000000400817e8       0x35 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400817e8                rtc_get_xtal
+                0x00000000400817e8                rtc_clk_xtal_freq_get
+ *fill*         0x000000004008181d        0x3 
  .text.rtc_clk_cpu_freq_mhz_to_config
-                0x000000004008185c       0x61 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x000000004008185c                rtc_clk_cpu_freq_mhz_to_config
- *fill*         0x00000000400818bd        0x3 
+                0x0000000040081820       0x61 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081820                rtc_clk_cpu_freq_mhz_to_config
+ *fill*         0x0000000040081881        0x3 
  .text.rtc_clk_cpu_freq_get_config
-                0x00000000400818c0       0xa9 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081884       0xa9 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0xb5 (size before relaxing)
-                0x00000000400818c0                rtc_clk_cpu_freq_get_config
- *fill*         0x0000000040081969        0x3 
+                0x0000000040081884                rtc_clk_cpu_freq_get_config
+ *fill*         0x000000004008192d        0x3 
  .text.rtc_clk_xtal_freq_update
-                0x000000004008196c       0x2c /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x000000004008196c                rtc_clk_xtal_freq_update
+                0x0000000040081930       0x2c /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081930                rtc_clk_xtal_freq_update
  .text.rtc_clk_apb_freq_update
-                0x0000000040081998       0x19 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x0000000040081998                rtc_clk_apb_freq_update
- *fill*         0x00000000400819b1        0x3 
+                0x000000004008195c       0x19 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004008195c                rtc_clk_apb_freq_update
+ *fill*         0x0000000040081975        0x3 
  .text.rtc_clk_cpu_freq_to_xtal
-                0x00000000400819b4       0x9f /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081978       0x9f /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0xa3 (size before relaxing)
-                0x00000000400819b4                rtc_clk_cpu_freq_to_xtal
- *fill*         0x0000000040081a53        0x1 
+                0x0000000040081978                rtc_clk_cpu_freq_to_xtal
+ *fill*         0x0000000040081a17        0x1 
  .text.rtc_clk_cpu_freq_to_pll_mhz
-                0x0000000040081a54       0x8c /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081a18       0x8c /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x94 (size before relaxing)
  .text.rtc_clk_cpu_freq_to_8m
-                0x0000000040081ae0       0x62 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081aa4       0x62 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x66 (size before relaxing)
- *fill*         0x0000000040081b42        0x2 
+ *fill*         0x0000000040081b06        0x2 
  .text.rtc_clk_cpu_freq_set_config
-                0x0000000040081b44       0x5b /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081b08       0x5b /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x76 (size before relaxing)
-                0x0000000040081b44                rtc_clk_cpu_freq_set_config
- *fill*         0x0000000040081b9f        0x1 
+                0x0000000040081b08                rtc_clk_cpu_freq_set_config
+ *fill*         0x0000000040081b63        0x1 
  .text.rtc_clk_apb_freq_get
-                0x0000000040081ba0       0x27 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                0x0000000040081ba0                rtc_clk_apb_freq_get
- *fill*         0x0000000040081bc7        0x1 
+                0x0000000040081b64       0x27 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040081b64                rtc_clk_apb_freq_get
+ *fill*         0x0000000040081b8b        0x1 
  .text.rtc_clk_cal_internal
-                0x0000000040081bc8      0x1c0 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000040081b8c      0x1c0 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_time.o)
                                         0x1cc (size before relaxing)
  .text.rtc_clk_cal_ratio
-                0x0000000040081d88       0x20 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000040081d4c       0x20 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_time.o)
                                          0x24 (size before relaxing)
-                0x0000000040081d88                rtc_clk_cal_ratio
+                0x0000000040081d4c                rtc_clk_cal_ratio
  .text.rtc_clk_wait_for_slow_cycle
-                0x0000000040081da8       0x79 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_time.o)
-                0x0000000040081da8                rtc_clk_wait_for_slow_cycle
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
- *fill*         0x0000000040081e21        0x0 
+                0x0000000040081d6c       0x79 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000040081d6c                rtc_clk_wait_for_slow_cycle
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
+ *fill*         0x0000000040081de5        0x0 
  *(.iram .iram.*)
  *(.fini.literal)
  *(.fini)
  *(.gnu.version)
-                0x0000000040081e21                _text_end = ABSOLUTE (.)
-                0x0000000040081e21                _etext = .
+                0x0000000040081de5                _text_end = ABSOLUTE (.)
+                0x0000000040081de5                _etext = .
 
 .dram0.bss      0x000000003fff0000       0x18
                 0x000000003fff0000                . = ALIGN (0x8)
@@ -1346,7 +1346,7 @@ END GROUP
  *(.jcr)
                 0x000000003fff001c                _data_end = ABSOLUTE (.)
 
-.dram0.rodata   0x000000003fff001c     0x18b8
+.dram0.rodata   0x000000003fff001c     0x1858
                 0x000000003fff001c                _rodata_start = ABSOLUTE (.)
  *(.rodata)
  .rodata        0x000000003fff001c       0x14 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
@@ -1356,89 +1356,89 @@ END GROUP
                 0x000000003fff0038       0x3b /home/lari/esp/test_lari/build/bootloader/main/libmain.a(bootloader_start.o)
  *fill*         0x000000003fff0073        0x1 
  .rodata.str1.4
-                0x000000003fff0074      0x442 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
-                                        0x44a (size before relaxing)
- *fill*         0x000000003fff04b6        0x2 
+                0x000000003fff0074      0x3e2 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                                        0x3ea (size before relaxing)
+ *fill*         0x000000003fff0456        0x2 
  .rodata.__func__$4472
-                0x000000003fff04b8       0x10 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+                0x000000003fff0458       0x10 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .rodata.str1.4
-                0x000000003fff04c8      0x5f5 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+                0x000000003fff0468      0x5f5 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
                                         0x5fd (size before relaxing)
- *fill*         0x000000003fff0abd        0x3 
+ *fill*         0x000000003fff0a5d        0x3 
  .rodata.str1.4
-                0x000000003fff0ac0      0x163 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- *fill*         0x000000003fff0c23        0x1 
+                0x000000003fff0a60      0x163 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ *fill*         0x000000003fff0bc3        0x1 
  .rodata.str1.4
-                0x000000003fff0c24      0x4d6 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x000000003fff0bc4      0x4d6 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                         0x516 (size before relaxing)
- *fill*         0x000000003fff10fa        0x2 
+ *fill*         0x000000003fff109a        0x2 
  .rodata.str1.4
-                0x000000003fff10fc       0xc8 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x000000003fff109c       0xc8 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  .rodata.padding$3889
-                0x000000003fff11c4       0x40 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+                0x000000003fff1164       0x40 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
  .rodata.__func__$3885
-                0x000000003fff1204       0x19 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- *fill*         0x000000003fff121d        0x3 
+                0x000000003fff11a4       0x19 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ *fill*         0x000000003fff11bd        0x3 
  .rodata.__func__$3865
-                0x000000003fff1220       0x17 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- *fill*         0x000000003fff1237        0x1 
+                0x000000003fff11c0       0x17 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ *fill*         0x000000003fff11d7        0x1 
  .rodata.str1.4
-                0x000000003fff1238       0x5d /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- *fill*         0x000000003fff1295        0x3 
+                0x000000003fff11d8       0x5d /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ *fill*         0x000000003fff1235        0x3 
  .rodata.__func__$2290
-                0x000000003fff1298       0x17 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- *fill*         0x000000003fff12af        0x1 
+                0x000000003fff1238       0x17 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ *fill*         0x000000003fff124f        0x1 
  .rodata.str1.4
-                0x000000003fff12b0      0x28e /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- *fill*         0x000000003fff153e        0x2 
+                0x000000003fff1250      0x28e /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ *fill*         0x000000003fff14de        0x2 
  .rodata.str1.4
-                0x000000003fff1540      0x1cb /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
- *fill*         0x000000003fff170b        0x1 
+                0x000000003fff14e0      0x1cb /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+ *fill*         0x000000003fff16ab        0x1 
  .rodata.rtc_clk_xtal_freq_estimate
-                0x000000003fff170c       0x64 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+                0x000000003fff16ac       0x64 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
  .rodata.str1.4
-                0x000000003fff1770       0xa1 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
- *fill*         0x000000003fff1811        0x3 
+                0x000000003fff1710       0xa1 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ *fill*         0x000000003fff17b1        0x3 
  .rodata.str1.4
-                0x000000003fff1814       0xa8 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x000000003fff17b4       0xa8 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_time.o)
                                          0xa5 (size before relaxing)
  .rodata.__func__$1848
-                0x000000003fff18bc       0x15 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x000000003fff185c       0x15 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_time.o)
  *(.gnu.linkonce.r.*)
  *(.rodata1)
-                0x000000003fff18d1                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
+                0x000000003fff1871                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
  *(.xt_except_table)
  *(.gcc_except_table)
  *(.gnu.linkonce.e.*)
  *(.gnu.version_r)
  *(.eh_frame)
-                0x000000003fff18d4                . = ((. + 0x3) & 0xfffffffffffffffc)
- *fill*         0x000000003fff18d1        0x3 
-                0x000000003fff18d4                __init_array_start = ABSOLUTE (.)
+                0x000000003fff1874                . = ((. + 0x3) & 0xfffffffffffffffc)
+ *fill*         0x000000003fff1871        0x3 
+                0x000000003fff1874                __init_array_start = ABSOLUTE (.)
  *crtbegin.*(.ctors)
  *(EXCLUDE_FILE(*crtend.*) .ctors)
  *(SORT(.ctors.*))
  *(.ctors)
-                0x000000003fff18d4                __init_array_end = ABSOLUTE (.)
+                0x000000003fff1874                __init_array_end = ABSOLUTE (.)
  *crtbegin.*(.dtors)
  *(EXCLUDE_FILE(*crtend.*) .dtors)
  *(SORT(.dtors.*))
  *(.dtors)
-                0x000000003fff18d4                __XT_EXCEPTION_DESCS_ = ABSOLUTE (.)
+                0x000000003fff1874                __XT_EXCEPTION_DESCS_ = ABSOLUTE (.)
  *(.xt_except_desc)
  *(.gnu.linkonce.h.*)
-                0x000000003fff18d4                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
+                0x000000003fff1874                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
  *(.xt_except_desc_end)
  *(.dynamic)
  *(.gnu.version_d)
-                0x000000003fff18d4                _rodata_end = ABSOLUTE (.)
-                0x000000003fff18d4                _lit4_start = ABSOLUTE (.)
+                0x000000003fff1874                _rodata_end = ABSOLUTE (.)
+                0x000000003fff1874                _lit4_start = ABSOLUTE (.)
  *(*.lit4)
  *(.lit4.*)
  *(.gnu.linkonce.lit4.*)
-                0x000000003fff18d4                _lit4_end = ABSOLUTE (.)
-                0x000000003fff18d4                . = ALIGN (0x4)
-                0x000000003fff18d4                _heap_start = ABSOLUTE (.)
+                0x000000003fff1874                _lit4_end = ABSOLUTE (.)
+                0x000000003fff1874                . = ALIGN (0x4)
+                0x000000003fff1874                _heap_start = ABSOLUTE (.)
                 [!provide]                        PROVIDE (Add2SelfBigHex256, 0x40015b7c)
                 [!provide]                        PROVIDE (AddBigHex256, 0x40015b28)
                 [!provide]                        PROVIDE (AddBigHexModP256, 0x40015c98)
@@ -3177,29 +3177,29 @@ OUTPUT(/home/lari/esp/test_lari/build/bootloader/bootloader.elf elf32-xtensa-le)
  .debug_frame   0x0000000000001108       0x28 /home/lari/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .debug_frame   0x0000000000001130       0x28 /home/lari/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_info     0x0000000000000000     0xde8a
+.debug_info     0x0000000000000000     0xde5c
  .debug_info    0x0000000000000000      0x337 /home/lari/esp/test_lari/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_info    0x0000000000000337     0x1715 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .debug_info    0x0000000000001a4c     0x1637 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_info    0x0000000000003083      0xd90 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_info    0x0000000000003e13      0x29e /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .debug_info    0x00000000000040b1      0x526 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_info    0x00000000000045d7     0x1521 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_info    0x0000000000005af8      0x507 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_info    0x0000000000005fff      0x25e /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_info    0x000000000000625d      0xccf /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_info    0x0000000000006f2c     0x2add /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .debug_info    0x0000000000009a09      0x900 /home/lari/esp/test_lari/build/bootloader/log/liblog.a(log.o)
- .debug_info    0x000000000000a309      0xaf5 /home/lari/esp/test_lari/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_info    0x000000000000adfe      0x118 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(cpu_util.o)
- .debug_info    0x000000000000af16      0x3f7 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_wdt.o)
- .debug_info    0x000000000000b30d      0x339 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_info    0x000000000000b646      0x7ce /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
- .debug_info    0x000000000000be14       0x95 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(gpio_periph.o)
- .debug_info    0x000000000000bea9     0x1474 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_info    0x000000000000d31d      0x4d8 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_time.o)
- .debug_info    0x000000000000d7f5       0xcd /home/lari/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .debug_info    0x000000000000d8c2      0x5c8 /home/lari/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .debug_info    0x0000000000000337     0x16ec /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_info    0x0000000000001a23     0x1637 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_info    0x000000000000305a      0xd90 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_info    0x0000000000003dea      0x299 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_info    0x0000000000004083      0x526 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_info    0x00000000000045a9     0x1521 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_info    0x0000000000005aca      0x507 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_info    0x0000000000005fd1      0x25e /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_info    0x000000000000622f      0xccf /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_info    0x0000000000006efe     0x2add /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .debug_info    0x00000000000099db      0x900 /home/lari/esp/test_lari/build/bootloader/log/liblog.a(log.o)
+ .debug_info    0x000000000000a2db      0xaf5 /home/lari/esp/test_lari/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_info    0x000000000000add0      0x118 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .debug_info    0x000000000000aee8      0x3f7 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+ .debug_info    0x000000000000b2df      0x339 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_info    0x000000000000b618      0x7ce /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+ .debug_info    0x000000000000bde6       0x95 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(gpio_periph.o)
+ .debug_info    0x000000000000be7b     0x1474 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_info    0x000000000000d2ef      0x4d8 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_info    0x000000000000d7c7       0xcd /home/lari/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_info    0x000000000000d894      0x5c8 /home/lari/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .debug_abbrev   0x0000000000000000     0x29b8
  .debug_abbrev  0x0000000000000000      0x15a /home/lari/esp/test_lari/build/bootloader/main/libmain.a(bootloader_start.o)
@@ -3225,28 +3225,28 @@ OUTPUT(/home/lari/esp/test_lari/build/bootloader/bootloader.elf elf32-xtensa-le)
  .debug_abbrev  0x00000000000027f9       0x60 /home/lari/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
  .debug_abbrev  0x0000000000002859      0x15f /home/lari/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_loc      0x0000000000000000     0x5dd7
+.debug_loc      0x0000000000000000     0x5d99
  .debug_loc     0x0000000000000000       0x84 /home/lari/esp/test_lari/build/bootloader/main/libmain.a(bootloader_start.o)
  .debug_loc     0x0000000000000084      0x774 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
  .debug_loc     0x00000000000007f8      0x8e5 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
  .debug_loc     0x00000000000010dd      0x575 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_loc     0x0000000000001652       0x51 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .debug_loc     0x00000000000016a3      0x1b6 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_loc     0x0000000000001859      0xbd1 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_loc     0x000000000000242a      0x1f2 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_loc     0x000000000000261c       0x62 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_loc     0x000000000000267e      0x749 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_loc     0x0000000000002dc7      0x232 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .debug_loc     0x0000000000002ff9      0x4ad /home/lari/esp/test_lari/build/bootloader/log/liblog.a(log.o)
- .debug_loc     0x00000000000034a6      0xa20 /home/lari/esp/test_lari/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_loc     0x0000000000003ec6       0x13 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(cpu_util.o)
- .debug_loc     0x0000000000003ed9      0x2e5 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_wdt.o)
- .debug_loc     0x00000000000041be      0x245 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_loc     0x0000000000004403      0x1d6 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
- .debug_loc     0x00000000000045d9      0xbce /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_loc     0x00000000000051a7      0x227 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_time.o)
- .debug_loc     0x00000000000053ce       0x21 /home/lari/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .debug_loc     0x00000000000053ef      0x9e8 /home/lari/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .debug_loc     0x0000000000001652       0x13 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_loc     0x0000000000001665      0x1b6 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_loc     0x000000000000181b      0xbd1 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_loc     0x00000000000023ec      0x1f2 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_loc     0x00000000000025de       0x62 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_loc     0x0000000000002640      0x749 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_loc     0x0000000000002d89      0x232 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .debug_loc     0x0000000000002fbb      0x4ad /home/lari/esp/test_lari/build/bootloader/log/liblog.a(log.o)
+ .debug_loc     0x0000000000003468      0xa20 /home/lari/esp/test_lari/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_loc     0x0000000000003e88       0x13 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .debug_loc     0x0000000000003e9b      0x2e5 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+ .debug_loc     0x0000000000004180      0x245 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_loc     0x00000000000043c5      0x1d6 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+ .debug_loc     0x000000000000459b      0xbce /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_loc     0x0000000000005169      0x227 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_loc     0x0000000000005390       0x21 /home/lari/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_loc     0x00000000000053b1      0x9e8 /home/lari/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .debug_aranges  0x0000000000000000      0x768
  .debug_aranges
@@ -3316,29 +3316,29 @@ OUTPUT(/home/lari/esp/test_lari/build/bootloader/bootloader.elf elf32-xtensa-le)
  .debug_ranges  0x00000000000006f8       0x40 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_time.o)
  .debug_ranges  0x0000000000000738       0x60 /home/lari/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_line     0x0000000000000000     0x72b3
+.debug_line     0x0000000000000000     0x7273
  .debug_line    0x0000000000000000      0x2e9 /home/lari/esp/test_lari/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_line    0x00000000000002e9      0x9e5 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
- .debug_line    0x0000000000000cce      0xa06 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
- .debug_line    0x00000000000016d4      0x753 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
- .debug_line    0x0000000000001e27      0x1e3 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
- .debug_line    0x000000000000200a      0x32a /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_line    0x0000000000002334      0xb23 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_line    0x0000000000002e57      0x479 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
- .debug_line    0x00000000000032d0      0x393 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_line    0x0000000000003663      0x5da /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_line    0x0000000000003c3d      0x529 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
- .debug_line    0x0000000000004166      0x4c8 /home/lari/esp/test_lari/build/bootloader/log/liblog.a(log.o)
- .debug_line    0x000000000000462e      0xabe /home/lari/esp/test_lari/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_line    0x00000000000050ec      0x1a2 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(cpu_util.o)
- .debug_line    0x000000000000528e      0x436 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_wdt.o)
- .debug_line    0x00000000000056c4      0x3c2 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_init.o)
- .debug_line    0x0000000000005a86      0x3ad /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
- .debug_line    0x0000000000005e33       0xf4 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(gpio_periph.o)
- .debug_line    0x0000000000005f27      0xd65 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_line    0x0000000000006c8c      0x410 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_time.o)
- .debug_line    0x000000000000709c       0x89 /home/lari/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
- .debug_line    0x0000000000007125      0x18e /home/lari/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .debug_line    0x00000000000002e9      0x9b7 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_init.o)
+ .debug_line    0x0000000000000ca0      0xa06 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_utility.o)
+ .debug_line    0x00000000000016a6      0x753 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_common.o)
+ .debug_line    0x0000000000001df9      0x1d1 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_clock.o)
+ .debug_line    0x0000000000001fca      0x32a /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_line    0x00000000000022f4      0xb23 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_line    0x0000000000002e17      0x479 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_sha.o)
+ .debug_line    0x0000000000003290      0x393 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_line    0x0000000000003623      0x5da /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_line    0x0000000000003bfd      0x529 /home/lari/esp/test_lari/build/bootloader/bootloader_support/libbootloader_support.a(flash_qio_mode.o)
+ .debug_line    0x0000000000004126      0x4c8 /home/lari/esp/test_lari/build/bootloader/log/liblog.a(log.o)
+ .debug_line    0x00000000000045ee      0xabe /home/lari/esp/test_lari/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_line    0x00000000000050ac      0x1a2 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(cpu_util.o)
+ .debug_line    0x000000000000524e      0x436 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_wdt.o)
+ .debug_line    0x0000000000005684      0x3c2 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_init.o)
+ .debug_line    0x0000000000005a46      0x3ad /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk_init.o)
+ .debug_line    0x0000000000005df3       0xf4 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(gpio_periph.o)
+ .debug_line    0x0000000000005ee7      0xd65 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_line    0x0000000000006c4c      0x410 /home/lari/esp/test_lari/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_line    0x000000000000705c       0x89 /home/lari/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_bswapsi2.o)
+ .debug_line    0x00000000000070e5      0x18e /home/lari/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .debug_str      0x0000000000000000     0x4b71
  .debug_str     0x0000000000000000      0x2f7 /home/lari/esp/test_lari/build/bootloader/main/libmain.a(bootloader_start.o)

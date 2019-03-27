@@ -15,35 +15,54 @@
 
 void app_main()
 { 
- 
+ //{ 
+  /*************************************************************************/
+  /* - Variante 1 - mit Bibliotheksfunktion clock()                        */
+  /* - clock() liefert die vom Programm bisher benutzte Prozessorzeit      */
+  /* - der Teiler CLOCKS_PER_SEC ist maschinenabhängig und spezifiziert,   */
+  /*   wieviel Uhr-Ticks auf der jeweiligen Maschine pro Sekunde vergehen  */
+  /* - CLOCKS_PER_SEC definiert also die clock_t-Einheiten pro Sekunde     */
+  /* - bei Linux (i[345..]86 glibc):     #define CLOCKS_PER_SEC  1000000   */
+  /*************************************************************************/
   int i;
   float z;
-  clock_t anfang, ende;
+  clock_t anfang, end;
 
   printf("Zeitmessung mit Clock() \n\n");
   anfang = clock();
   for(i=1; i<100000000;i++);
-  ende = clock();
+  end = clock();
   printf("anfang:%lu\n", anfang);
-  printf("ende:%lu\n", ende);
-  printf("clocks zwischen anfang und ende: %lu\n", ende - anfang);
-  z=ende - anfang;
+  printf("end:%lu\n", end);
+  printf("clocks zwischen anfang und end: %lu\n", end - anfang);
+  z=end - anfang;
   //Per Definition ist CLOCKS_PER_SEC = 1000 
   printf("CLOCKS_PRO_SEKUNDE:%d\n", CLOCKS_PER_SEC);
   z/=CLOCKS_PER_SEC;
-  printf("Zeit zwischen anfang und ende: %f Sekunden\n", z);
+  printf("Zeit zwischen anfang und end: %f Sekunden\n", z);
   
- } 
+ }
+
+// {
+  /*************************************************************************/
+  /* - Variante 2 - mit Systemruf gettimeofday()                           */
+  /* - gettimeofday() stellt u.a. die Struktur timeval bereit              */
+  /*      struct timeval {                                                 */
+  /*           long tv_sec;           Sekunden seit 1.1.1970               */
+  /*           long tv_usec;          Mikrosekunden                        */
+  /*      };                                                               */
+  /*************************************************************************/
+ 
 
 
-/*
-struct timeval begin, end;
+/* struct timeval anfang, end;
   long seconds, useconds;
   int i;
-  printf("\n\nZeitmessung von der for-Schleife mit gettimeofday(2)  \n\n");
 
-   Test mit for-Schleife 
-  if (gettimeofday(&begin,(struct timezone *)0)) {
+
+  printf("\n\nVariante 2 - mit gettimeofday(2)  \n\n");
+  *//* Test mit for-Schleife */
+  /*if (gettimeofday(&anfang,(struct timezone *)0)) {
     fprintf(stderr, "can not get time\n");
     exit(1);
   }
@@ -54,11 +73,10 @@ struct timeval begin, end;
     fprintf(stderr, "can not get time\n");
     exit(1);
   }
-  printf("begin:%lu sec %lu usec\n", begin.tv_sec, begin.tv_usec);
-  printf("end:%lu sec %lu usec\n", end.tv_sec, end.tv_usec);
-  seconds = end.tv_sec - begin.tv_sec;
-  useconds = end.tv_usec - begin.tv_usec;
-  // Die Zeit muss immer positiv sein.
+  printf("anfang:%lu sec %lu usec\n", anfang.tv_sec, anfang.tv_usec);
+  printf("end: %lu sec %lu usec\n", end.tv_sec, end.tv_usec);
+  seconds = end.tv_sec - anfang.tv_sec;
+  useconds = end.tv_usec - anfang.tv_usec;
   if(useconds < 0) {
         useconds += 1000000;
         seconds--;
@@ -66,36 +84,34 @@ struct timeval begin, end;
 
   printf("Dauer der for-Schleife:%lu sec %lu usec\n\n", seconds, useconds);
 
-}
 */
-  /*Test mit sleep() 
+   /* Test mit sleep()*/ 
 
-  if (gettimeofday(&anfang,(struct timezone *)0)) {
+ /* if (gettimeofday(&anfang,(struct timezone *)0)) {
     fprintf(stderr, "can not get time\n");
     exit(1);
   }
 
   sleep(5);
 
-  if (gettimeofday(&ende,(struct timezone *)0)) {
+  if (gettimeofday(&end,(struct timezone *)0)) {
     fprintf(stderr, "can not get time\n");
     exit(1);
   }
   printf("anfang:%lu sec %lu usec\n", anfang.tv_sec, anfang.tv_usec);
-  printf("ende:%lu sec %lu usec\n", ende.tv_sec, ende.tv_usec);
-  seconds = ende.tv_sec - anfang.tv_sec;
-  useconds = ende.tv_usec - anfang.tv_usec;
+  printf("end:%lu sec %lu usec\n", end.tv_sec, end.tv_usec);
+  seconds = end.tv_sec - anfang.tv_sec;
+  useconds = end.tv_usec - anfang.tv_usec;
   if(useconds < 0) {
         useconds += 1000000;
         seconds--;
   }   
   printf("Dauer sleep(5):%lu sec %lu usec\n", seconds, useconds);
-
  }
- 
+ */ 
 
+//}
 
-*/
 
 /*void app_main()
 {
@@ -176,7 +192,7 @@ struct timeval begin, end;
 	if (!ptr_file)
 		printf("%s","error is occured");
 	else{
-        //char * fgets ( char * str, int num, FILE * stream ); Reads characters from stream and stores them as a C string into str until (num-1) characters have been read or either a newline or the ende-of-file is reached, whichever happens first.
+        //char * fgets ( char * str, int num, FILE * stream ); Reads characters from stream and stores them as a C string into str until (num-1) characters have been read or either a newline or the end-of-file is reached, whichever happens first.
 		while (fgets(buf,1000, ptr_file)!=NULL)
          printf("bonjoooor\n");
          fprintf(ptr_file,"Beispiel larissa");

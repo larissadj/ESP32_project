@@ -17,6 +17,9 @@ hello_panic.o: /home/lari/esp/test_lari/main/hello_panic.c \
  /home/lari/esp/esp-idf/components/newlib/include/machine/types.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/stdio.h \
+ /home/lari/esp/esp-idf/components/newlib/include/stdlib.h \
+ /home/lari/esp/esp-idf/components/newlib/include/machine/stdlib.h \
+ /home/lari/esp/esp-idf/components/newlib/include/alloca.h \
  /home/lari/esp/esp-idf/components/newlib/include/string.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/string.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
@@ -34,9 +37,6 @@ hello_panic.o: /home/lari/esp/test_lari/main/hello_panic.c \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/xtensa_context.h \
  /home/lari/esp/esp-idf/components/esp32/include/xtensa/corebits.h \
  /home/lari/esp/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h \
- /home/lari/esp/esp-idf/components/newlib/include/stdlib.h \
- /home/lari/esp/esp-idf/components/newlib/include/machine/stdlib.h \
- /home/lari/esp/esp-idf/components/newlib/include/alloca.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_assert.h \
@@ -79,7 +79,18 @@ hello_panic.o: /home/lari/esp/test_lari/main/hello_panic.c \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/task.h \
  /home/lari/esp/esp-idf/components/newlib/include/limits.h \
- /home/lari/esp/esp-idf/components/freertos/include/freertos/list.h
+ /home/lari/esp/esp-idf/components/freertos/include/freertos/list.h \
+ /home/lari/esp/esp-idf/components/newlib/include/sys/stat.h \
+ /home/lari/esp/esp-idf/components/newlib/platform_include/time.h \
+ /home/lari/esp/esp-idf/components/newlib/include/time.h \
+ /home/lari/esp/esp-idf/components/newlib/include/machine/time.h \
+ /home/lari/esp/esp-idf/components/newlib/include/fcntl.h \
+ /home/lari/esp/esp-idf/components/newlib/include/sys/fcntl.h \
+ /home/lari/esp/esp-idf/components/newlib/include/sys/_default_fcntl.h \
+ /home/lari/esp/esp-idf/components/newlib/include/sys/time.h \
+ /home/lari/esp/esp-idf/components/newlib/include/unistd.h \
+ /home/lari/esp/esp-idf/components/newlib/platform_include/sys/unistd.h \
+ /home/lari/esp/esp-idf/components/newlib/include/sys/unistd.h
 
 /home/lari/esp/esp-idf/components/newlib/include/stdio.h:
 
@@ -117,6 +128,12 @@ hello_panic.o: /home/lari/esp/test_lari/main/hello_panic.c \
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/stdio.h:
 
+/home/lari/esp/esp-idf/components/newlib/include/stdlib.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/machine/stdlib.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/alloca.h:
+
 /home/lari/esp/esp-idf/components/newlib/include/string.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/string.h:
@@ -150,12 +167,6 @@ hello_panic.o: /home/lari/esp/test_lari/main/hello_panic.c \
 /home/lari/esp/esp-idf/components/esp32/include/xtensa/corebits.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/stdlib.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/machine/stdlib.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/alloca.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 
@@ -242,4 +253,26 @@ hello_panic.o: /home/lari/esp/test_lari/main/hello_panic.c \
 /home/lari/esp/esp-idf/components/newlib/include/limits.h:
 
 /home/lari/esp/esp-idf/components/freertos/include/freertos/list.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/sys/stat.h:
+
+/home/lari/esp/esp-idf/components/newlib/platform_include/time.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/time.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/machine/time.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/fcntl.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/sys/fcntl.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/sys/_default_fcntl.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/sys/time.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/unistd.h:
+
+/home/lari/esp/esp-idf/components/newlib/platform_include/sys/unistd.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/sys/unistd.h:
 /home/lari/esp/test_lari/main/./hello_panic.c:

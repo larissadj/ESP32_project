@@ -422,41 +422,41 @@ bootloader_clock.o:     file format elf32-xtensa-le
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
-  0 .literal.bootloader_clock_configure 00000028  00000000  00000000  00000034  2**2
+  0 .literal.bootloader_clock_configure 0000002c  00000000  00000000  00000034  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  1 .text         00000000  00000000  00000000  0000005c  2**0
+  1 .text         00000000  00000000  00000000  00000060  2**0
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  2 .data         00000000  00000000  00000000  0000005c  2**0
+  2 .data         00000000  00000000  00000000  00000060  2**0
                   CONTENTS, ALLOC, LOAD, DATA
-  3 .bss          00000000  00000000  00000000  0000005c  2**0
+  3 .bss          00000000  00000000  00000000  00000060  2**0
                   ALLOC
-  4 .rodata       00000008  00000000  00000000  0000005c  2**2
+  4 .rodata       00000008  00000000  00000000  00000060  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  5 .text.bootloader_clock_configure 00000082  00000000  00000000  00000064  2**2
+  5 .text.bootloader_clock_configure 00000076  00000000  00000000  00000068  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
-  6 .debug_frame  00000028  00000000  00000000  000000e8  2**2
+  6 .debug_frame  00000028  00000000  00000000  000000e0  2**2
                   CONTENTS, RELOC, READONLY, DEBUGGING
-  7 .debug_info   000002ea  00000000  00000000  00000110  2**0
+  7 .debug_info   000002e5  00000000  00000000  00000108  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
-  8 .debug_abbrev 0000015f  00000000  00000000  000003fa  2**0
+  8 .debug_abbrev 0000015f  00000000  00000000  000003ed  2**0
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_loc    00000051  00000000  00000000  00000559  2**0
+  9 .debug_loc    00000013  00000000  00000000  0000054c  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 10 .debug_aranges 00000020  00000000  00000000  000005aa  2**0
+ 10 .debug_aranges 00000020  00000000  00000000  0000055f  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 11 .debug_ranges 00000010  00000000  00000000  000005ca  2**0
+ 11 .debug_ranges 00000010  00000000  00000000  0000057f  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 12 .debug_line   000001d3  00000000  00000000  000005da  2**0
+ 12 .debug_line   000001c1  00000000  00000000  0000058f  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 13 .debug_str    000003ab  00000000  00000000  000007ad  2**0
+ 13 .debug_str    000003ab  00000000  00000000  00000750  2**0
                   CONTENTS, READONLY, DEBUGGING
- 14 .comment      0000003b  00000000  00000000  00000b58  2**0
+ 14 .comment      0000003b  00000000  00000000  00000afb  2**0
                   CONTENTS, READONLY
- 15 .xtensa.info  00000038  00000000  00000000  00000b93  2**0
+ 15 .xtensa.info  00000038  00000000  00000000  00000b36  2**0
                   CONTENTS, READONLY
- 16 .xt.lit       00000008  00000000  00000000  00000bcb  2**0
+ 16 .xt.lit       00000008  00000000  00000000  00000b6e  2**0
                   CONTENTS, RELOC, READONLY
- 17 .xt.prop      00000060  00000000  00000000  00000bd3  2**0
+ 17 .xt.prop      00000048  00000000  00000000  00000b76  2**0
                   CONTENTS, RELOC, READONLY
 
 secure_boot_signatures.o:     file format elf32-xtensa-le
