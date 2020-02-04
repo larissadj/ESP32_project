@@ -1,0 +1,2 @@
+/home/lari/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc libesp_http_client.a  CMakeFiles/esp_http_client.dir/esp_http_client.c.obj CMakeFiles/esp_http_client.dir/lib/http_auth.c.obj CMakeFiles/esp_http_client.dir/lib/http_header.c.obj CMakeFiles/esp_http_client.dir/lib/http_utils.c.obj CMakeFiles/esp_http_client.dir/lib/transport.c.obj CMakeFiles/esp_http_client.dir/lib/transport_ssl.c.obj CMakeFiles/esp_http_client.dir/lib/transport_tcp.c.obj
+/home/lari/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib libesp_http_client.a

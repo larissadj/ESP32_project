@@ -16,10 +16,6 @@ spiram.o: /home/lari/esp/esp-idf/components/esp32/spiram.c \
  /home/lari/esp/esp-idf/components/newlib/include/sys/lock.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/string.h \
- /home/lari/esp/esp-idf/components/newlib/include/sys/param.h \
- /home/lari/esp/esp-idf/components/newlib/include/sys/syslimits.h \
- /home/lari/esp/esp-idf/components/newlib/include/machine/endian.h \
- /home/lari/esp/esp-idf/components/newlib/include/machine/param.h \
  /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_err.h \
@@ -92,8 +88,7 @@ spiram.o: /home/lari/esp/esp-idf/components/esp32/spiram.c \
  /home/lari/esp/esp-idf/components/esp32/include/esp_dport_access.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/uart_reg.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/cache.h \
- /home/lari/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
- /home/lari/esp/esp-idf/components/esp32/include/esp_himem.h
+ /home/lari/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h
 
 /home/lari/esp/esp-idf/components/newlib/include/stdint.h:
 
@@ -128,14 +123,6 @@ spiram.o: /home/lari/esp/esp-idf/components/esp32/spiram.c \
 /home/lari/esp/esp-idf/components/newlib/include/sys/cdefs.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/string.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/sys/param.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/sys/syslimits.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/machine/endian.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/machine/param.h:
 
 /home/lari/esp/test_lari/build/include/sdkconfig.h:
 
@@ -282,6 +269,4 @@ spiram.o: /home/lari/esp/esp-idf/components/esp32/spiram.c \
 /home/lari/esp/esp-idf/components/esp32/include/rom/cache.h:
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h:
-
-/home/lari/esp/esp-idf/components/esp32/include/esp_himem.h:
 /home/lari/esp/esp-idf/components/esp32/./spiram.c:

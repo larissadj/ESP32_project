@@ -16,17 +16,13 @@ hw_random.o: /home/lari/esp/esp-idf/components/esp32/hw_random.c \
  /home/lari/esp/esp-idf/components/newlib/include/sys/lock.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/string.h \
- /home/lari/esp/esp-idf/components/newlib/include/sys/param.h \
- /home/lari/esp/esp-idf/components/newlib/include/sys/syslimits.h \
- /home/lari/esp/esp-idf/components/newlib/include/machine/endian.h \
- /home/lari/esp/esp-idf/components/newlib/include/machine/param.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_clk.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/wdev_reg.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_assert.h \
  /home/lari/esp/esp-idf/components/newlib/platform_include/assert.h \
+ /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/lari/esp/esp-idf/components/newlib/include/alloca.h \
@@ -80,17 +76,7 @@ hw_random.o: /home/lari/esp/esp-idf/components/esp32/hw_random.c \
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/string.h:
 
-/home/lari/esp/esp-idf/components/newlib/include/sys/param.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/sys/syslimits.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/machine/endian.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/machine/param.h:
-
 /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h:
-
-/home/lari/esp/test_lari/build/include/sdkconfig.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_clk.h:
 
@@ -101,6 +87,8 @@ hw_random.o: /home/lari/esp/esp-idf/components/esp32/hw_random.c \
 /home/lari/esp/esp-idf/components/esp32/include/esp_assert.h:
 
 /home/lari/esp/esp-idf/components/newlib/platform_include/assert.h:
+
+/home/lari/esp/test_lari/build/include/sdkconfig.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/stdlib.h:
 

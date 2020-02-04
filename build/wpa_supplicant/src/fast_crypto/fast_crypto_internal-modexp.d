@@ -42,7 +42,6 @@ src/fast_crypto/fast_crypto_internal-modexp.o: \
  /home/lari/esp/esp-idf/components/mbedtls/port/include/mbedtls/bignum.h \
  /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h \
  /home/lari/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/lari/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
  /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /home/lari/esp/esp-idf/components/newlib/include/limits.h
 
@@ -129,8 +128,6 @@ src/fast_crypto/fast_crypto_internal-modexp.o: \
 /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h:
 
 /home/lari/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
-
-/home/lari/esp/esp-idf/components/mbedtls/port/include/esp_mem.h:
 
 /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
 

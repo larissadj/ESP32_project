@@ -1,0 +1,2 @@
+/home/lari/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ar qc liblog.a  CMakeFiles/log.dir/log.c.obj
+/home/lari/esp/xtensa-esp32-elf/bin/xtensa-esp32-elf-ranlib liblog.a

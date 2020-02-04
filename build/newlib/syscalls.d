@@ -20,18 +20,17 @@ syscalls.o: /home/lari/esp/esp-idf/components/newlib/syscalls.c \
  /home/lari/esp/esp-idf/components/newlib/include/unistd.h \
  /home/lari/esp/esp-idf/components/newlib/platform_include/sys/unistd.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/unistd.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/errno.h \
  /home/lari/esp/esp-idf/components/newlib/include/errno.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/errno.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/lari/esp/esp-idf/components/newlib/include/alloca.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdint.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
+ /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/lari/esp/esp-idf/components/esp32/include/xtensa/hal.h \
  /home/lari/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -126,8 +125,6 @@ syscalls.o: /home/lari/esp/esp-idf/components/newlib/syscalls.c \
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/unistd.h:
 
-/home/lari/esp/esp-idf/components/newlib/platform_include/errno.h:
-
 /home/lari/esp/esp-idf/components/newlib/include/errno.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/errno.h:
@@ -140,8 +137,6 @@ syscalls.o: /home/lari/esp/esp-idf/components/newlib/syscalls.c \
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h:
 
-/home/lari/esp/test_lari/build/include/sdkconfig.h:
-
 /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/stdint.h:
@@ -149,6 +144,8 @@ syscalls.o: /home/lari/esp/esp-idf/components/newlib/syscalls.c \
 /home/lari/esp/esp-idf/components/newlib/include/sys/_intsup.h:
 
 /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
+
+/home/lari/esp/test_lari/build/include/sdkconfig.h:
 
 /home/lari/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

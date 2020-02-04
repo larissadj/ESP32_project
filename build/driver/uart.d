@@ -18,12 +18,12 @@ uart.o: /home/lari/esp/esp-idf/components/driver/uart.c \
  /home/lari/esp/esp-idf/components/newlib/include/stdint.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_intr.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_assert.h \
  /home/lari/esp/esp-idf/components/newlib/platform_include/assert.h \
+ /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/lari/esp/esp-idf/components/newlib/include/alloca.h \
@@ -87,7 +87,7 @@ uart.o: /home/lari/esp/esp-idf/components/driver/uart.c \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/task.h \
  /home/lari/esp/esp-idf/components/newlib/include/limits.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/list.h \
- /home/lari/esp/esp-idf/components/esp_ringbuf/include/freertos/ringbuf.h \
+ /home/lari/esp/esp-idf/components/freertos/include/freertos/ringbuf.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
@@ -139,8 +139,6 @@ uart.o: /home/lari/esp/esp-idf/components/driver/uart.c \
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h:
 
-/home/lari/esp/test_lari/build/include/sdkconfig.h:
-
 /home/lari/esp/esp-idf/components/esp32/include/esp_intr.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
@@ -150,6 +148,8 @@ uart.o: /home/lari/esp/esp-idf/components/driver/uart.c \
 /home/lari/esp/esp-idf/components/esp32/include/esp_assert.h:
 
 /home/lari/esp/esp-idf/components/newlib/platform_include/assert.h:
+
+/home/lari/esp/test_lari/build/include/sdkconfig.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/stdlib.h:
 
@@ -277,7 +277,7 @@ uart.o: /home/lari/esp/esp-idf/components/driver/uart.c \
 
 /home/lari/esp/esp-idf/components/freertos/include/freertos/list.h:
 
-/home/lari/esp/esp-idf/components/esp_ringbuf/include/freertos/ringbuf.h:
+/home/lari/esp/esp-idf/components/freertos/include/freertos/ringbuf.h:
 
 /home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h:
 

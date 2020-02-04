@@ -11,7 +11,6 @@ sleep_modes.o: /home/lari/esp/esp-idf/components/esp32/sleep_modes.c \
  /home/lari/esp/esp-idf/components/newlib/include/machine/endian.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/param.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_sleep.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdint.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/_default_types.h \
@@ -28,6 +27,7 @@ sleep_modes.o: /home/lari/esp/esp-idf/components/esp32/sleep_modes.c \
  /home/lari/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/lari/esp/esp-idf/components/newlib/platform_include/assert.h \
+ /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/lari/esp/esp-idf/components/newlib/include/alloca.h \
@@ -85,14 +85,9 @@ sleep_modes.o: /home/lari/esp/esp-idf/components/esp32/sleep_modes.c \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/sens_reg.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
- /home/lari/esp/esp-idf/components/soc/include/soc/rtc_wdt.h \
  /home/lari/esp/esp-idf/components/driver/include/driver/rtc_io.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/rtc_gpio_channel.h \
  /home/lari/esp/esp-idf/components/soc/include/soc/rtc_periph.h \
- /home/lari/esp/esp-idf/components/driver/include/driver/uart.h \
- /home/lari/esp/esp-idf/components/soc/esp32/include/soc/uart_struct.h \
- /home/lari/esp/esp-idf/components/driver/include/driver/periph_ctrl.h \
- /home/lari/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
@@ -108,14 +103,9 @@ sleep_modes.o: /home/lari/esp/esp-idf/components/esp32/sleep_modes.c \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/portbenchmark.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/mpu_wrappers.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_system.h \
- /home/lari/esp/esp-idf/components/freertos/include/freertos/semphr.h \
- /home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/task.h \
  /home/lari/esp/esp-idf/components/newlib/include/limits.h \
- /home/lari/esp/esp-idf/components/freertos/include/freertos/list.h \
- /home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h \
- /home/lari/esp/esp-idf/components/esp_ringbuf/include/freertos/ringbuf.h \
- /home/lari/esp/esp-idf/components/soc/esp32/include/soc/uart_channel.h
+ /home/lari/esp/esp-idf/components/freertos/include/freertos/list.h
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/lock.h:
 
@@ -140,8 +130,6 @@ sleep_modes.o: /home/lari/esp/esp-idf/components/esp32/sleep_modes.c \
 /home/lari/esp/esp-idf/components/newlib/include/machine/param.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h:
-
-/home/lari/esp/test_lari/build/include/sdkconfig.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_sleep.h:
 
@@ -174,6 +162,8 @@ sleep_modes.o: /home/lari/esp/esp-idf/components/esp32/sleep_modes.c \
 /home/lari/esp/esp-idf/components/newlib/include/sys/stdio.h:
 
 /home/lari/esp/esp-idf/components/newlib/platform_include/assert.h:
+
+/home/lari/esp/test_lari/build/include/sdkconfig.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/stdlib.h:
 
@@ -289,21 +279,11 @@ sleep_modes.o: /home/lari/esp/esp-idf/components/esp32/sleep_modes.c \
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h:
 
-/home/lari/esp/esp-idf/components/soc/include/soc/rtc_wdt.h:
-
 /home/lari/esp/esp-idf/components/driver/include/driver/rtc_io.h:
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/rtc_gpio_channel.h:
 
 /home/lari/esp/esp-idf/components/soc/include/soc/rtc_periph.h:
-
-/home/lari/esp/esp-idf/components/driver/include/driver/uart.h:
-
-/home/lari/esp/esp-idf/components/soc/esp32/include/soc/uart_struct.h:
-
-/home/lari/esp/esp-idf/components/driver/include/driver/periph_ctrl.h:
-
-/home/lari/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h:
 
 /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
@@ -335,19 +315,9 @@ sleep_modes.o: /home/lari/esp/esp-idf/components/esp32/sleep_modes.c \
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_system.h:
 
-/home/lari/esp/esp-idf/components/freertos/include/freertos/semphr.h:
-
-/home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h:
-
 /home/lari/esp/esp-idf/components/freertos/include/freertos/task.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/limits.h:
 
 /home/lari/esp/esp-idf/components/freertos/include/freertos/list.h:
-
-/home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h:
-
-/home/lari/esp/esp-idf/components/esp_ringbuf/include/freertos/ringbuf.h:
-
-/home/lari/esp/esp-idf/components/soc/esp32/include/soc/uart_channel.h:
 /home/lari/esp/esp-idf/components/esp32/./sleep_modes.c:

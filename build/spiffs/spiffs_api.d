@@ -84,16 +84,12 @@ spiffs_api.o: /home/lari/esp/esp-idf/components/spiffs/spiffs_api.c \
  /home/lari/esp/esp-idf/components/newlib/include/unistd.h \
  /home/lari/esp/esp-idf/components/newlib/platform_include/sys/unistd.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/unistd.h \
- /home/lari/esp/esp-idf/components/newlib/include/utime.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/sys/utime.h \
- /home/lari/esp/esp-idf/components/newlib/include/sys/time.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/semphr.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/stat.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/time.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/sys/termios.h \
+ /home/lari/esp/esp-idf/components/newlib/include/sys/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/dirent.h \
  /home/lari/esp/esp-idf/components/vfs/include/sys/dirent.h \
  /home/lari/esp/esp-idf/components/newlib/include/string.h \
@@ -275,25 +271,17 @@ spiffs_api.o: /home/lari/esp/esp-idf/components/spiffs/spiffs_api.c \
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/unistd.h:
 
-/home/lari/esp/esp-idf/components/newlib/include/utime.h:
-
-/home/lari/esp/esp-idf/components/newlib/platform_include/sys/utime.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/sys/time.h:
-
 /home/lari/esp/esp-idf/components/freertos/include/freertos/semphr.h:
 
 /home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/stat.h:
 
-/home/lari/esp/esp-idf/components/newlib/platform_include/time.h:
-
 /home/lari/esp/esp-idf/components/newlib/include/time.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/machine/time.h:
 
-/home/lari/esp/esp-idf/components/newlib/platform_include/sys/termios.h:
+/home/lari/esp/esp-idf/components/newlib/include/sys/time.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/dirent.h:
 

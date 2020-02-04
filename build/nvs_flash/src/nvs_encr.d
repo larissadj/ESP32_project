@@ -30,7 +30,6 @@ src/nvs_encr.o: \
  /home/lari/esp/esp-idf/components/newlib/include/assert.h \
  /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h \
  /home/lari/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/lari/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
  /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /home/lari/esp/esp-idf/components/newlib/include/limits.h \
  /home/lari/esp/esp-idf/components/mbedtls/port/include/aes_alt.h \
@@ -105,8 +104,6 @@ src/nvs_encr.o: \
 /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h:
 
 /home/lari/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
-
-/home/lari/esp/esp-idf/components/mbedtls/port/include/esp_mem.h:
 
 /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
 

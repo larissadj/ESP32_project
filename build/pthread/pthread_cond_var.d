@@ -1,6 +1,5 @@
 pthread_cond_var.o: \
  /home/lari/esp/esp-idf/components/pthread/pthread_cond_var.c \
- /home/lari/esp/esp-idf/components/newlib/platform_include/errno.h \
  /home/lari/esp/esp-idf/components/newlib/include/errno.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/errno.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/reent.h \
@@ -14,17 +13,14 @@ pthread_cond_var.o: \
  /home/lari/esp/esp-idf/components/newlib/include/machine/_types.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/lock.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/pthread.h \
- /home/lari/esp/esp-idf/components/newlib/include/sys/types.h \
- /home/lari/esp/esp-idf/components/newlib/include/machine/types.h \
- /home/lari/esp/esp-idf/components/newlib/include/sys/sched.h \
- /home/lari/esp/esp-idf/components/newlib/include/sys/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/pthread.h \
  /home/lari/esp/esp-idf/components/newlib/include/unistd.h \
  /home/lari/esp/esp-idf/components/newlib/platform_include/sys/unistd.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/unistd.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/cdefs.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/time.h \
+ /home/lari/esp/esp-idf/components/newlib/include/sys/types.h \
+ /home/lari/esp/esp-idf/components/newlib/include/machine/types.h \
+ /home/lari/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/lari/esp/esp-idf/components/newlib/include/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/time.h \
@@ -97,10 +93,9 @@ pthread_cond_var.o: \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/list.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/queue.h \
+ /home/lari/esp/esp-idf/components/newlib/include/sys/time.h \
  /home/lari/esp/esp-idf/components/log/include/esp_log.h \
  /home/lari/esp/esp-idf/components/log/include/esp_log_internal.h
-
-/home/lari/esp/esp-idf/components/newlib/platform_include/errno.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/errno.h:
 
@@ -128,16 +123,6 @@ pthread_cond_var.o: \
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/lock.h:
 
-/home/lari/esp/esp-idf/components/newlib/platform_include/pthread.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/sys/types.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/machine/types.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/sys/sched.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/sys/time.h:
-
 /home/lari/esp/esp-idf/components/newlib/include/pthread.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/unistd.h:
@@ -148,7 +133,11 @@ pthread_cond_var.o: \
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/cdefs.h:
 
-/home/lari/esp/esp-idf/components/newlib/platform_include/time.h:
+/home/lari/esp/esp-idf/components/newlib/include/sys/types.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/machine/types.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/sys/sched.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/time.h:
 
@@ -293,6 +282,8 @@ pthread_cond_var.o: \
 /home/lari/esp/esp-idf/components/freertos/include/freertos/list.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/rom/queue.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/sys/time.h:
 
 /home/lari/esp/esp-idf/components/log/include/esp_log.h:
 

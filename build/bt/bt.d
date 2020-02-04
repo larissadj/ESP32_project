@@ -87,7 +87,6 @@ bt.o: /home/lari/esp/esp-idf/components/bt/bt.c \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/portmacro.h \
  /home/lari/esp/esp-idf/components/esp32/include/xtensa/core-macros.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_task.h \
- /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_phy_init.h \
  /home/lari/esp/esp-idf/components/bt/include/esp_bt.h \
  /home/lari/esp/esp-idf/components/log/include/esp_log.h \
@@ -280,8 +279,6 @@ bt.o: /home/lari/esp/esp-idf/components/bt/bt.c \
 /home/lari/esp/esp-idf/components/esp32/include/xtensa/core-macros.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_task.h:
-
-/home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_phy_init.h:
 

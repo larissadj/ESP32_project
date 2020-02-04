@@ -41,7 +41,6 @@ src/fast_crypto/fast_aes-cbc.o: \
  /home/lari/esp/esp-idf/components/wpa_supplicant/include/crypto/aes_wrap.h \
  /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h \
  /home/lari/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/lari/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
  /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /home/lari/esp/esp-idf/components/newlib/include/limits.h \
  /home/lari/esp/esp-idf/components/mbedtls/port/include/aes_alt.h \
@@ -129,8 +128,6 @@ src/fast_crypto/fast_aes-cbc.o: \
 /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h:
 
 /home/lari/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
-
-/home/lari/esp/esp-idf/components/mbedtls/port/include/esp_mem.h:
 
 /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
 

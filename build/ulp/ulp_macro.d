@@ -23,11 +23,11 @@ ulp_macro.o: /home/lari/esp/esp-idf/components/ulp/ulp_macro.c \
  /home/lari/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/lari/esp/esp-idf/components/newlib/include/alloca.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdint.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/lari/esp/esp-idf/components/newlib/platform_include/assert.h \
+ /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/newlib/include/assert.h \
  /home/lari/esp/esp-idf/components/log/include/esp_log.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
@@ -87,8 +87,6 @@ ulp_macro.o: /home/lari/esp/esp-idf/components/ulp/ulp_macro.c \
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h:
 
-/home/lari/esp/test_lari/build/include/sdkconfig.h:
-
 /home/lari/esp/esp-idf/components/esp32/include/esp_err.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/stdint.h:
@@ -96,6 +94,8 @@ ulp_macro.o: /home/lari/esp/esp-idf/components/ulp/ulp_macro.c \
 /home/lari/esp/esp-idf/components/newlib/include/sys/_intsup.h:
 
 /home/lari/esp/esp-idf/components/newlib/platform_include/assert.h:
+
+/home/lari/esp/test_lari/build/include/sdkconfig.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/assert.h:
 

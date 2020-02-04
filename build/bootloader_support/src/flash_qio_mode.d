@@ -4,7 +4,7 @@ src/flash_qio_mode.o: \
  /home/lari/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/features.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/_intsup.h \
- /home/lari/esp/esp-idf/components/bootloader_support/include_bootloader/flash_qio_mode.h \
+ /home/lari/esp/esp-idf/components/bootloader_support/include_priv/flash_qio_mode.h \
  /home/lari/esp/esp-idf/components/log/include/esp_log.h \
  /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
@@ -49,7 +49,7 @@ src/flash_qio_mode.o: \
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/_intsup.h:
 
-/home/lari/esp/esp-idf/components/bootloader_support/include_bootloader/flash_qio_mode.h:
+/home/lari/esp/esp-idf/components/bootloader_support/include_priv/flash_qio_mode.h:
 
 /home/lari/esp/esp-idf/components/log/include/esp_log.h:
 

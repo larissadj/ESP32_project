@@ -31,13 +31,9 @@ src/vfs_fat.o: /home/lari/esp/esp-idf/components/fatfs/src/vfs_fat.c \
  /home/lari/esp/esp-idf/components/newlib/include/sys/fcntl.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/_default_fcntl.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/stat.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/time.h \
  /home/lari/esp/esp-idf/components/vfs/include/esp_vfs.h \
- /home/lari/esp/esp-idf/components/newlib/include/utime.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/sys/utime.h \
- /home/lari/esp/esp-idf/components/newlib/include/sys/time.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/lari/esp/test_lari/build/include/sdkconfig.h \
@@ -95,7 +91,7 @@ src/vfs_fat.o: /home/lari/esp/esp-idf/components/fatfs/src/vfs_fat.c \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/semphr.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/sys/termios.h \
+ /home/lari/esp/esp-idf/components/newlib/include/sys/time.h \
  /home/lari/esp/esp-idf/components/log/include/esp_log.h \
  /home/lari/esp/esp-idf/components/log/include/esp_log_internal.h \
  /home/lari/esp/esp-idf/components/fatfs/src/ff.h \
@@ -175,19 +171,11 @@ src/vfs_fat.o: /home/lari/esp/esp-idf/components/fatfs/src/vfs_fat.c \
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/stat.h:
 
-/home/lari/esp/esp-idf/components/newlib/platform_include/time.h:
-
 /home/lari/esp/esp-idf/components/newlib/include/time.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/machine/time.h:
 
 /home/lari/esp/esp-idf/components/vfs/include/esp_vfs.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/utime.h:
-
-/home/lari/esp/esp-idf/components/newlib/platform_include/sys/utime.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/sys/time.h:
 
 /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
@@ -303,7 +291,7 @@ src/vfs_fat.o: /home/lari/esp/esp-idf/components/fatfs/src/vfs_fat.c \
 
 /home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h:
 
-/home/lari/esp/esp-idf/components/newlib/platform_include/sys/termios.h:
+/home/lari/esp/esp-idf/components/newlib/include/sys/time.h:
 
 /home/lari/esp/esp-idf/components/log/include/esp_log.h:
 

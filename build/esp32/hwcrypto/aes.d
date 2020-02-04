@@ -17,10 +17,6 @@ hwcrypto/aes.o: /home/lari/esp/esp-idf/components/esp32/hwcrypto/aes.c \
  /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h \
  /home/lari/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
  /home/lari/esp/test_lari/build/include/sdkconfig.h \
- /home/lari/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
- /home/lari/esp/esp-idf/components/newlib/include/stdlib.h \
- /home/lari/esp/esp-idf/components/newlib/include/machine/stdlib.h \
- /home/lari/esp/esp-idf/components/newlib/include/alloca.h \
  /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /home/lari/esp/esp-idf/components/newlib/include/limits.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdint.h \
@@ -33,6 +29,9 @@ hwcrypto/aes.o: /home/lari/esp/esp-idf/components/esp32/hwcrypto/aes.c \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_assert.h \
  /home/lari/esp/esp-idf/components/newlib/platform_include/assert.h \
+ /home/lari/esp/esp-idf/components/newlib/include/stdlib.h \
+ /home/lari/esp/esp-idf/components/newlib/include/machine/stdlib.h \
+ /home/lari/esp/esp-idf/components/newlib/include/alloca.h \
  /home/lari/esp/esp-idf/components/newlib/include/assert.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h \
@@ -130,14 +129,6 @@ hwcrypto/aes.o: /home/lari/esp/esp-idf/components/esp32/hwcrypto/aes.c \
 
 /home/lari/esp/test_lari/build/include/sdkconfig.h:
 
-/home/lari/esp/esp-idf/components/mbedtls/port/include/esp_mem.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/stdlib.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/machine/stdlib.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/alloca.h:
-
 /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/limits.h:
@@ -161,6 +152,12 @@ hwcrypto/aes.o: /home/lari/esp/esp-idf/components/esp32/hwcrypto/aes.c \
 /home/lari/esp/esp-idf/components/esp32/include/esp_assert.h:
 
 /home/lari/esp/esp-idf/components/newlib/platform_include/assert.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/stdlib.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/machine/stdlib.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/alloca.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/assert.h:
 

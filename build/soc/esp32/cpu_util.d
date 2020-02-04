@@ -1,6 +1,5 @@
 esp32/cpu_util.o: /home/lari/esp/esp-idf/components/soc/esp32/cpu_util.c \
  /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdint.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/_default_types.h \
@@ -16,6 +15,7 @@ esp32/cpu_util.o: /home/lari/esp/esp-idf/components/soc/esp32/cpu_util.c \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_assert.h \
  /home/lari/esp/esp-idf/components/newlib/platform_include/assert.h \
+ /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
  /home/lari/esp/esp-idf/components/newlib/include/_ansi.h \
@@ -34,8 +34,6 @@ esp32/cpu_util.o: /home/lari/esp/esp-idf/components/soc/esp32/cpu_util.c \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/soc.h
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h:
-
-/home/lari/esp/test_lari/build/include/sdkconfig.h:
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/cpu.h:
 
@@ -66,6 +64,8 @@ esp32/cpu_util.o: /home/lari/esp/esp-idf/components/soc/esp32/cpu_util.c \
 /home/lari/esp/esp-idf/components/esp32/include/esp_assert.h:
 
 /home/lari/esp/esp-idf/components/newlib/platform_include/assert.h:
+
+/home/lari/esp/test_lari/build/include/sdkconfig.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/stdlib.h:
 

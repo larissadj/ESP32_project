@@ -8,11 +8,11 @@ src/bootloader_clock.o: \
  /home/lari/esp/esp-idf/components/newlib/include/stdint.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_assert.h \
  /home/lari/esp/esp-idf/components/newlib/platform_include/assert.h \
+ /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
  /home/lari/esp/esp-idf/components/newlib/include/_ansi.h \
@@ -64,8 +64,6 @@ src/bootloader_clock.o: \
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h:
 
-/home/lari/esp/test_lari/build/include/sdkconfig.h:
-
 /home/lari/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
@@ -73,6 +71,8 @@ src/bootloader_clock.o: \
 /home/lari/esp/esp-idf/components/esp32/include/esp_assert.h:
 
 /home/lari/esp/esp-idf/components/newlib/platform_include/assert.h:
+
+/home/lari/esp/test_lari/build/include/sdkconfig.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/stdlib.h:
 

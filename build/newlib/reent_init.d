@@ -14,8 +14,7 @@ reent_init.o: /home/lari/esp/esp-idf/components/newlib/reent_init.c \
  /home/lari/esp/esp-idf/components/newlib/include/sys/lock.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/string.h \
- /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/lari/esp/test_lari/build/include/sdkconfig.h
+ /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h
 
 /home/lari/esp/esp-idf/components/newlib/include/string.h:
 
@@ -48,6 +47,4 @@ reent_init.o: /home/lari/esp/esp-idf/components/newlib/reent_init.c \
 /home/lari/esp/esp-idf/components/newlib/include/sys/string.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h:
-
-/home/lari/esp/test_lari/build/include/sdkconfig.h:
 /home/lari/esp/esp-idf/components/newlib/./reent_init.c:

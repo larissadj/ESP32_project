@@ -1,12 +1,12 @@
 eth_phy/phy_tlk110.o: \
  /home/lari/esp/esp-idf/components/ethernet/eth_phy/phy_tlk110.c \
  /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/log/include/esp_log.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdint.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/features.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/_intsup.h \
+ /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_assert.h \
@@ -88,8 +88,6 @@ eth_phy/phy_tlk110.o: \
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h:
 
-/home/lari/esp/test_lari/build/include/sdkconfig.h:
-
 /home/lari/esp/esp-idf/components/log/include/esp_log.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/stdint.h:
@@ -99,6 +97,8 @@ eth_phy/phy_tlk110.o: \
 /home/lari/esp/esp-idf/components/newlib/include/sys/features.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/_intsup.h:
+
+/home/lari/esp/test_lari/build/include/sdkconfig.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 

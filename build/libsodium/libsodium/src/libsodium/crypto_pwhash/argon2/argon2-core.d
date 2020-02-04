@@ -1,6 +1,5 @@
 libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.o: \
  /home/lari/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.c \
- /home/lari/esp/esp-idf/components/newlib/platform_include/errno.h \
  /home/lari/esp/esp-idf/components/newlib/include/errno.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/errno.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/reent.h \
@@ -37,8 +36,6 @@ libsodium/src/libsodium/crypto_pwhash/argon2/argon2-core.o: \
  /home/lari/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_pwhash/argon2/argon2.h \
  /home/lari/esp/esp-idf/components/newlib/include/limits.h \
  /home/lari/esp/esp-idf/components/libsodium/libsodium/src/libsodium/crypto_pwhash/argon2/blake2b-long.h
-
-/home/lari/esp/esp-idf/components/newlib/platform_include/errno.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/errno.h:
 

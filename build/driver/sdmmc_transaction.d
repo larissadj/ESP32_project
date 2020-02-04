@@ -86,15 +86,11 @@ sdmmc_transaction.o: \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/semphr.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h \
- /home/lari/esp/esp-idf/components/freertos/include/freertos/task.h \
- /home/lari/esp/esp-idf/components/newlib/include/limits.h \
- /home/lari/esp/esp-idf/components/freertos/include/freertos/list.h \
- /home/lari/esp/esp-idf/components/soc/include/soc/sdmmc_periph.h \
- /home/lari/esp/esp-idf/components/soc/esp32/include/soc/sdmmc_pins.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/sdmmc_reg.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/sdmmc_struct.h \
  /home/lari/esp/esp-idf/components/driver/include/driver/sdmmc_types.h \
  /home/lari/esp/esp-idf/components/driver/include/driver/sdmmc_defs.h \
+ /home/lari/esp/esp-idf/components/newlib/include/limits.h \
  /home/lari/esp/esp-idf/components/driver/include/driver/sdmmc_host.h \
  /home/lari/esp/esp-idf/components/driver/include/driver/sdmmc_types.h \
  /home/lari/esp/esp-idf/components/driver/sdmmc_private.h
@@ -271,16 +267,6 @@ sdmmc_transaction.o: \
 
 /home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h:
 
-/home/lari/esp/esp-idf/components/freertos/include/freertos/task.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/limits.h:
-
-/home/lari/esp/esp-idf/components/freertos/include/freertos/list.h:
-
-/home/lari/esp/esp-idf/components/soc/include/soc/sdmmc_periph.h:
-
-/home/lari/esp/esp-idf/components/soc/esp32/include/soc/sdmmc_pins.h:
-
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/sdmmc_reg.h:
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/sdmmc_struct.h:
@@ -288,6 +274,8 @@ sdmmc_transaction.o: \
 /home/lari/esp/esp-idf/components/driver/include/driver/sdmmc_types.h:
 
 /home/lari/esp/esp-idf/components/driver/include/driver/sdmmc_defs.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/limits.h:
 
 /home/lari/esp/esp-idf/components/driver/include/driver/sdmmc_host.h:
 

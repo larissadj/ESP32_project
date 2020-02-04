@@ -96,8 +96,7 @@ task_wdt.o: /home/lari/esp/esp-idf/components/esp32/task_wdt.c \
  /home/lari/esp/esp-idf/components/esp32/include/esp_dport_access.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/uart_reg.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
- /home/lari/esp/esp-idf/components/esp32/include/esp_task_wdt.h \
- /home/lari/esp/esp-idf/components/esp32/esp_system_internal.h
+ /home/lari/esp/esp-idf/components/esp32/include/esp_task_wdt.h
 
 /home/lari/esp/esp-idf/components/newlib/include/stdint.h:
 
@@ -294,6 +293,4 @@ task_wdt.o: /home/lari/esp/esp-idf/components/esp32/task_wdt.c \
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_task_wdt.h:
-
-/home/lari/esp/esp-idf/components/esp32/esp_system_internal.h:
 /home/lari/esp/esp-idf/components/esp32/./task_wdt.c:

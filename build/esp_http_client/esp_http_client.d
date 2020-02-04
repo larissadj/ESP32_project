@@ -65,12 +65,11 @@ esp_http_client.o: \
  /home/lari/esp/esp-idf/components/log/include/esp_log_internal.h \
  /home/lari/esp/esp-idf/components/esp_http_client/lib/include/http_header.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/queue.h \
- /home/lari/esp/esp-idf/components/tcp_transport/include/esp_transport.h \
- /home/lari/esp/esp-idf/components/tcp_transport/include/esp_transport_tcp.h \
- /home/lari/esp/esp-idf/components/tcp_transport/include/esp_transport.h \
+ /home/lari/esp/esp-idf/components/esp_http_client/lib/include/transport.h \
+ /home/lari/esp/esp-idf/components/esp_http_client/lib/include/transport_tcp.h \
+ /home/lari/esp/esp-idf/components/esp_http_client/lib/include/transport.h \
  /home/lari/esp/esp-idf/components/esp_http_client/lib/include/http_utils.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/time.h \
- /home/lari/esp/esp-idf/components/tcp_transport/include/esp_transport_utils.h \
  /home/lari/esp/esp-idf/components/esp_http_client/lib/include/http_auth.h \
  /home/lari/esp/esp-idf/components/esp_http_client/include/esp_http_client.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
@@ -91,10 +90,7 @@ esp_http_client.o: \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/portbenchmark.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/mpu_wrappers.h \
  /home/lari/esp/esp-idf/components/nghttp/port/include/http_parser.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/errno.h \
- /home/lari/esp/esp-idf/components/newlib/include/errno.h \
- /home/lari/esp/esp-idf/components/newlib/include/sys/errno.h \
- /home/lari/esp/esp-idf/components/tcp_transport/include/esp_transport_ssl.h
+ /home/lari/esp/esp-idf/components/esp_http_client/lib/include/transport_ssl.h
 
 /home/lari/esp/esp-idf/components/newlib/include/string.h:
 
@@ -226,17 +222,15 @@ esp_http_client.o: \
 
 /home/lari/esp/esp-idf/components/esp32/include/rom/queue.h:
 
-/home/lari/esp/esp-idf/components/tcp_transport/include/esp_transport.h:
+/home/lari/esp/esp-idf/components/esp_http_client/lib/include/transport.h:
 
-/home/lari/esp/esp-idf/components/tcp_transport/include/esp_transport_tcp.h:
+/home/lari/esp/esp-idf/components/esp_http_client/lib/include/transport_tcp.h:
 
-/home/lari/esp/esp-idf/components/tcp_transport/include/esp_transport.h:
+/home/lari/esp/esp-idf/components/esp_http_client/lib/include/transport.h:
 
 /home/lari/esp/esp-idf/components/esp_http_client/lib/include/http_utils.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/time.h:
-
-/home/lari/esp/esp-idf/components/tcp_transport/include/esp_transport_utils.h:
 
 /home/lari/esp/esp-idf/components/esp_http_client/lib/include/http_auth.h:
 
@@ -278,11 +272,5 @@ esp_http_client.o: \
 
 /home/lari/esp/esp-idf/components/nghttp/port/include/http_parser.h:
 
-/home/lari/esp/esp-idf/components/newlib/platform_include/errno.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/errno.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/sys/errno.h:
-
-/home/lari/esp/esp-idf/components/tcp_transport/include/esp_transport_ssl.h:
+/home/lari/esp/esp-idf/components/esp_http_client/lib/include/transport_ssl.h:
 /home/lari/esp/esp-idf/components/esp_http_client/./esp_http_client.c:

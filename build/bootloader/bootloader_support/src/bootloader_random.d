@@ -1,6 +1,6 @@
 src/bootloader_random.o: \
  /home/lari/esp/esp-idf/components/bootloader_support/src/bootloader_random.c \
- /home/lari/esp/esp-idf/components/bootloader_support/include/bootloader_random.h \
+ /home/lari/esp/esp-idf/components/bootloader_support/include_priv/bootloader_random.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /home/lari/esp/esp-idf/components/esp32/include/xtensa/corebits.h \
  /home/lari/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -18,8 +18,8 @@ src/bootloader_random.o: \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/lari/esp/test_lari/build/bootloader/../include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_dport_access.h \
+ /home/lari/esp/test_lari/build/bootloader/../include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/uart_reg.h \
  /home/lari/esp/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /home/lari/esp/esp-idf/components/esp32/include/xtensa/config/specreg.h \
@@ -31,7 +31,7 @@ src/bootloader_random.o: \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/lari/esp/esp-idf/components/log/include/esp_log_internal.h
 
-/home/lari/esp/esp-idf/components/bootloader_support/include/bootloader_random.h:
+/home/lari/esp/esp-idf/components/bootloader_support/include_priv/bootloader_random.h:
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/cpu.h:
 
@@ -67,9 +67,9 @@ src/bootloader_random.o: \
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h:
 
-/home/lari/esp/test_lari/build/bootloader/../include/sdkconfig.h:
-
 /home/lari/esp/esp-idf/components/esp32/include/esp_dport_access.h:
+
+/home/lari/esp/test_lari/build/bootloader/../include/sdkconfig.h:
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/uart_reg.h:
 

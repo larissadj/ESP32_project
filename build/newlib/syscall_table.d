@@ -20,14 +20,12 @@ syscall_table.o: /home/lari/esp/esp-idf/components/newlib/syscall_table.c \
  /home/lari/esp/esp-idf/components/newlib/include/sys/types.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/types.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/sched.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/errno.h \
  /home/lari/esp/esp-idf/components/newlib/include/errno.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/errno.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/lari/esp/esp-idf/components/newlib/include/alloca.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/stat.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/signal.h \
@@ -39,9 +37,6 @@ syscall_table.o: /home/lari/esp/esp-idf/components/newlib/syscall_table.c \
  /home/lari/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/lari/esp/esp-idf/components/newlib/include/reent.h \
  /home/lari/esp/esp-idf/components/vfs/include/esp_vfs.h \
- /home/lari/esp/esp-idf/components/newlib/include/utime.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/sys/utime.h \
- /home/lari/esp/esp-idf/components/newlib/include/sys/time.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/lari/esp/test_lari/build/include/sdkconfig.h \
@@ -97,7 +92,7 @@ syscall_table.o: /home/lari/esp/esp-idf/components/newlib/syscall_table.c \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/semphr.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/sys/termios.h \
+ /home/lari/esp/esp-idf/components/newlib/include/sys/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/dirent.h \
  /home/lari/esp/esp-idf/components/vfs/include/sys/dirent.h \
  /home/lari/esp/esp-idf/components/newlib/platform_include/esp_newlib.h
@@ -144,8 +139,6 @@ syscall_table.o: /home/lari/esp/esp-idf/components/newlib/syscall_table.c \
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/sched.h:
 
-/home/lari/esp/esp-idf/components/newlib/platform_include/errno.h:
-
 /home/lari/esp/esp-idf/components/newlib/include/errno.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/errno.h:
@@ -157,8 +150,6 @@ syscall_table.o: /home/lari/esp/esp-idf/components/newlib/syscall_table.c \
 /home/lari/esp/esp-idf/components/newlib/include/alloca.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/stat.h:
-
-/home/lari/esp/esp-idf/components/newlib/platform_include/time.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/time.h:
 
@@ -181,12 +172,6 @@ syscall_table.o: /home/lari/esp/esp-idf/components/newlib/syscall_table.c \
 /home/lari/esp/esp-idf/components/newlib/include/reent.h:
 
 /home/lari/esp/esp-idf/components/vfs/include/esp_vfs.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/utime.h:
-
-/home/lari/esp/esp-idf/components/newlib/platform_include/sys/utime.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/sys/time.h:
 
 /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
@@ -298,7 +283,7 @@ syscall_table.o: /home/lari/esp/esp-idf/components/newlib/syscall_table.c \
 
 /home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h:
 
-/home/lari/esp/esp-idf/components/newlib/platform_include/sys/termios.h:
+/home/lari/esp/esp-idf/components/newlib/include/sys/time.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/dirent.h:
 

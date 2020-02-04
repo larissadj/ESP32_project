@@ -36,7 +36,6 @@ port/os_xtensa.o: \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_assert.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/endian.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/time.h \
@@ -140,8 +139,6 @@ port/os_xtensa.o: \
 /home/lari/esp/esp-idf/components/esp32/include/esp_assert.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/machine/endian.h:
-
-/home/lari/esp/esp-idf/components/newlib/platform_include/time.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/time.h:
 

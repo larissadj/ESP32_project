@@ -37,7 +37,6 @@ brownout.o: /home/lari/esp/esp-idf/components/esp32/brownout.c \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
- /home/lari/esp/esp-idf/components/esp32/esp_system_internal.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_system.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_sleep.h \
@@ -155,8 +154,6 @@ brownout.o: /home/lari/esp/esp-idf/components/esp32/brownout.c \
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
-
-/home/lari/esp/esp-idf/components/esp32/esp_system_internal.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_system.h:
 

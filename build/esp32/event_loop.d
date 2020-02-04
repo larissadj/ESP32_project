@@ -83,21 +83,13 @@ event_loop.o: /home/lari/esp/esp-idf/components/esp32/event_loop.c \
  /home/lari/esp/esp-idf/components/esp32/include/esp_wifi_types.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_interface.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_wifi_crypto_types.h \
- /home/lari/esp/esp-idf/components/esp_event/include/esp_event.h \
- /home/lari/esp/esp-idf/components/freertos/include/freertos/task.h \
- /home/lari/esp/esp-idf/components/newlib/include/limits.h \
- /home/lari/esp/esp-idf/components/freertos/include/freertos/list.h \
- /home/lari/esp/esp-idf/components/freertos/include/freertos/semphr.h \
- /home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h \
- /home/lari/esp/esp-idf/components/esp_event/include/esp_event_base.h \
- /home/lari/esp/esp-idf/components/esp32/include/esp_event_legacy.h \
+ /home/lari/esp/esp-idf/components/esp32/include/esp_event.h \
  /home/lari/esp/esp-idf/components/tcpip_adapter/include/tcpip_adapter.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/queue.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_wifi_types.h \
- /home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h \
- /home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h \
- /home/lari/esp/esp-idf/components/lwip/port/esp32/include/lwipopts.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/time.h \
+ /home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/ip_addr.h \
+ /home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/opt.h \
+ /home/lari/esp/esp-idf/components/lwip/include/lwip/port/lwipopts.h \
  /home/lari/esp/esp-idf/components/newlib/include/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/unistd.h \
@@ -110,23 +102,24 @@ event_loop.o: /home/lari/esp/esp-idf/components/esp32/event_loop.c \
  /home/lari/esp/esp-idf/components/vfs/include/sys/ioctl.h \
  /home/lari/esp/esp-idf/components/newlib/platform_include/sys/select.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_task.h \
- /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/lari/esp/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h \
- /home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
- /home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h \
- /home/lari/esp/esp-idf/components/lwip/port/esp32/include/arch/cc.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/errno.h \
+ /home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/debug.h \
+ /home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/arch.h \
+ /home/lari/esp/esp-idf/components/lwip/include/lwip/port/arch/cc.h \
  /home/lari/esp/esp-idf/components/newlib/include/errno.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/errno.h \
- /home/lari/esp/esp-idf/components/lwip/port/esp32/include/arch/sys_arch.h \
- /home/lari/esp/esp-idf/components/lwip/port/esp32/include/arch/vfs_lwip.h \
- /home/lari/esp/esp-idf/components/newlib/include/inttypes.h \
- /home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
- /home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip4_addr.h \
- /home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip6_addr.h \
- /home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
- /home/lari/esp/esp-idf/components/lwip/include/apps/dhcpserver/dhcpserver.h \
+ /home/lari/esp/esp-idf/components/lwip/include/lwip/port/arch/sys_arch.h \
+ /home/lari/esp/esp-idf/components/freertos/include/freertos/task.h \
+ /home/lari/esp/esp-idf/components/newlib/include/limits.h \
+ /home/lari/esp/esp-idf/components/freertos/include/freertos/list.h \
+ /home/lari/esp/esp-idf/components/freertos/include/freertos/semphr.h \
+ /home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h \
+ /home/lari/esp/esp-idf/components/lwip/include/lwip/port/arch/vfs_lwip.h \
+ /home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/def.h \
+ /home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/ip4_addr.h \
+ /home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/ip6_addr.h \
+ /home/lari/esp/esp-idf/components/lwip/include/lwip/apps/dhcpserver.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_wifi_os_adapter.h \
+ /home/lari/esp/esp-idf/components/esp32/include/esp_event.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_event_loop.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_mesh.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_wifi.h \
@@ -303,21 +296,7 @@ event_loop.o: /home/lari/esp/esp-idf/components/esp32/event_loop.c \
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_wifi_crypto_types.h:
 
-/home/lari/esp/esp-idf/components/esp_event/include/esp_event.h:
-
-/home/lari/esp/esp-idf/components/freertos/include/freertos/task.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/limits.h:
-
-/home/lari/esp/esp-idf/components/freertos/include/freertos/list.h:
-
-/home/lari/esp/esp-idf/components/freertos/include/freertos/semphr.h:
-
-/home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h:
-
-/home/lari/esp/esp-idf/components/esp_event/include/esp_event_base.h:
-
-/home/lari/esp/esp-idf/components/esp32/include/esp_event_legacy.h:
+/home/lari/esp/esp-idf/components/esp32/include/esp_event.h:
 
 /home/lari/esp/esp-idf/components/tcpip_adapter/include/tcpip_adapter.h:
 
@@ -325,13 +304,11 @@ event_loop.o: /home/lari/esp/esp-idf/components/esp32/event_loop.c \
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_wifi_types.h:
 
-/home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:
+/home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/ip_addr.h:
 
-/home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:
+/home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/opt.h:
 
-/home/lari/esp/esp-idf/components/lwip/port/esp32/include/lwipopts.h:
-
-/home/lari/esp/esp-idf/components/newlib/platform_include/time.h:
+/home/lari/esp/esp-idf/components/lwip/include/lwip/port/lwipopts.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/time.h:
 
@@ -357,39 +334,41 @@ event_loop.o: /home/lari/esp/esp-idf/components/esp32/event_loop.c \
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_task.h:
 
-/home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
+/home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/debug.h:
 
-/home/lari/esp/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h:
+/home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/arch.h:
 
-/home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:
-
-/home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:
-
-/home/lari/esp/esp-idf/components/lwip/port/esp32/include/arch/cc.h:
-
-/home/lari/esp/esp-idf/components/newlib/platform_include/errno.h:
+/home/lari/esp/esp-idf/components/lwip/include/lwip/port/arch/cc.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/errno.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/errno.h:
 
-/home/lari/esp/esp-idf/components/lwip/port/esp32/include/arch/sys_arch.h:
+/home/lari/esp/esp-idf/components/lwip/include/lwip/port/arch/sys_arch.h:
 
-/home/lari/esp/esp-idf/components/lwip/port/esp32/include/arch/vfs_lwip.h:
+/home/lari/esp/esp-idf/components/freertos/include/freertos/task.h:
 
-/home/lari/esp/esp-idf/components/newlib/include/inttypes.h:
+/home/lari/esp/esp-idf/components/newlib/include/limits.h:
 
-/home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h:
+/home/lari/esp/esp-idf/components/freertos/include/freertos/list.h:
 
-/home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip4_addr.h:
+/home/lari/esp/esp-idf/components/freertos/include/freertos/semphr.h:
 
-/home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip6_addr.h:
+/home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h:
 
-/home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h:
+/home/lari/esp/esp-idf/components/lwip/include/lwip/port/arch/vfs_lwip.h:
 
-/home/lari/esp/esp-idf/components/lwip/include/apps/dhcpserver/dhcpserver.h:
+/home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/def.h:
+
+/home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/ip4_addr.h:
+
+/home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/ip6_addr.h:
+
+/home/lari/esp/esp-idf/components/lwip/include/lwip/apps/dhcpserver.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_wifi_os_adapter.h:
+
+/home/lari/esp/esp-idf/components/esp32/include/esp_event.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_event_loop.h:
 

@@ -3,6 +3,8 @@ esp32/rtc_clk.o: /home/lari/esp/esp-idf/components/soc/esp32/rtc_clk.c \
  /home/lari/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/features.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/_intsup.h \
+ /home/lari/esp/esp-idf/components/newlib/platform_include/assert.h \
+ /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
  /home/lari/esp/esp-idf/components/newlib/include/_ansi.h \
@@ -17,12 +19,10 @@ esp32/rtc_clk.o: /home/lari/esp/esp-idf/components/soc/esp32/rtc_clk.c \
  /home/lari/esp/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/lari/esp/esp-idf/components/newlib/include/alloca.h \
+ /home/lari/esp/esp-idf/components/newlib/include/assert.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_assert.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/lari/esp/test_lari/build/include/sdkconfig.h \
- /home/lari/esp/esp-idf/components/newlib/include/assert.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/rtc.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/uart.h \
@@ -59,8 +59,7 @@ esp32/rtc_clk.o: /home/lari/esp/esp-idf/components/soc/esp32/rtc_clk.c \
  /home/lari/esp/esp-idf/components/soc/esp32/soc_log.h \
  /home/lari/esp/esp-idf/components/log/include/esp_log.h \
  /home/lari/esp/esp-idf/components/log/include/esp_log_internal.h \
- /home/lari/esp/esp-idf/components/esp32/include/xtensa/core-macros.h \
- /home/lari/esp/esp-idf/components/soc/esp32/rtc_clk_common.h
+ /home/lari/esp/esp-idf/components/esp32/include/xtensa/core-macros.h
 
 /home/lari/esp/esp-idf/components/newlib/include/stdint.h:
 
@@ -69,6 +68,10 @@ esp32/rtc_clk.o: /home/lari/esp/esp-idf/components/soc/esp32/rtc_clk.c \
 /home/lari/esp/esp-idf/components/newlib/include/sys/features.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/_intsup.h:
+
+/home/lari/esp/esp-idf/components/newlib/platform_include/assert.h:
+
+/home/lari/esp/test_lari/build/include/sdkconfig.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/stdlib.h:
 
@@ -98,17 +101,13 @@ esp32/rtc_clk.o: /home/lari/esp/esp-idf/components/soc/esp32/rtc_clk.c \
 
 /home/lari/esp/esp-idf/components/newlib/include/alloca.h:
 
+/home/lari/esp/esp-idf/components/newlib/include/assert.h:
+
 /home/lari/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_assert.h:
-
-/home/lari/esp/esp-idf/components/newlib/platform_include/assert.h:
-
-/home/lari/esp/test_lari/build/include/sdkconfig.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/assert.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/rom/rtc.h:
 
@@ -183,6 +182,4 @@ esp32/rtc_clk.o: /home/lari/esp/esp-idf/components/soc/esp32/rtc_clk.c \
 /home/lari/esp/esp-idf/components/log/include/esp_log_internal.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/xtensa/core-macros.h:
-
-/home/lari/esp/esp-idf/components/soc/esp32/rtc_clk_common.h:
 /home/lari/esp/esp-idf/components/soc/esp32/rtc_clk.c:

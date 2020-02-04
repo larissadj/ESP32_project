@@ -17,7 +17,6 @@ cpu_start.o: /home/lari/esp/esp-idf/components/esp32/cpu_start.c \
  /home/lari/esp/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/string.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdio.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/types.h \
@@ -25,6 +24,7 @@ cpu_start.o: /home/lari/esp/esp-idf/components/esp32/cpu_start.c \
  /home/lari/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/lari/esp/esp-idf/components/newlib/platform_include/assert.h \
+ /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/lari/esp/esp-idf/components/newlib/include/alloca.h \
@@ -59,7 +59,6 @@ cpu_start.o: /home/lari/esp/esp-idf/components/esp32/cpu_start.c \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/timer_group_reg.h \
- /home/lari/esp/esp-idf/components/soc/include/soc/rtc_wdt.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/efuse_reg.h \
  /home/lari/esp/esp-idf/components/driver/include/driver/rtc_io.h \
  /home/lari/esp/esp-idf/components/driver/include/driver/gpio.h \
@@ -109,19 +108,16 @@ cpu_start.o: /home/lari/esp/esp-idf/components/esp32/cpu_start.c \
  /home/lari/esp/esp-idf/components/nvs_flash/include/nvs.h \
  /home/lari/esp/esp-idf/components/spi_flash/include/esp_partition.h \
  /home/lari/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h \
- /home/lari/esp/esp-idf/components/esp_event/include/esp_event.h \
- /home/lari/esp/esp-idf/components/esp_event/include/esp_event_base.h \
- /home/lari/esp/esp-idf/components/esp32/include/esp_event_legacy.h \
+ /home/lari/esp/esp-idf/components/esp32/include/esp_event.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_wifi_types.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/queue.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_interface.h \
  /home/lari/esp/esp-idf/components/tcpip_adapter/include/tcpip_adapter.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/queue.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_wifi_types.h \
- /home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h \
- /home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h \
- /home/lari/esp/esp-idf/components/lwip/port/esp32/include/lwipopts.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/time.h \
+ /home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/ip_addr.h \
+ /home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/opt.h \
+ /home/lari/esp/esp-idf/components/lwip/include/lwip/port/lwipopts.h \
  /home/lari/esp/esp-idf/components/newlib/include/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/unistd.h \
@@ -134,30 +130,22 @@ cpu_start.o: /home/lari/esp/esp-idf/components/esp32/cpu_start.c \
  /home/lari/esp/esp-idf/components/vfs/include/sys/ioctl.h \
  /home/lari/esp/esp-idf/components/newlib/platform_include/sys/select.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_task.h \
- /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/lari/esp/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h \
- /home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h \
- /home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h \
- /home/lari/esp/esp-idf/components/lwip/port/esp32/include/arch/cc.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/errno.h \
+ /home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/debug.h \
+ /home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/arch.h \
+ /home/lari/esp/esp-idf/components/lwip/include/lwip/port/arch/cc.h \
  /home/lari/esp/esp-idf/components/newlib/include/errno.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/errno.h \
- /home/lari/esp/esp-idf/components/lwip/port/esp32/include/arch/sys_arch.h \
- /home/lari/esp/esp-idf/components/lwip/port/esp32/include/arch/vfs_lwip.h \
- /home/lari/esp/esp-idf/components/newlib/include/inttypes.h \
- /home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
- /home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip4_addr.h \
- /home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip6_addr.h \
- /home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h \
- /home/lari/esp/esp-idf/components/lwip/include/apps/dhcpserver/dhcpserver.h \
+ /home/lari/esp/esp-idf/components/lwip/include/lwip/port/arch/sys_arch.h \
+ /home/lari/esp/esp-idf/components/lwip/include/lwip/port/arch/vfs_lwip.h \
+ /home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/def.h \
+ /home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/ip4_addr.h \
+ /home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/ip6_addr.h \
+ /home/lari/esp/esp-idf/components/lwip/include/lwip/apps/dhcpserver.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_ipc.h \
  /home/lari/esp/esp-idf/components/log/include/esp_log.h \
  /home/lari/esp/esp-idf/components/log/include/esp_log_internal.h \
  /home/lari/esp/esp-idf/components/vfs/include/esp_vfs_dev.h \
  /home/lari/esp/esp-idf/components/vfs/include/esp_vfs.h \
- /home/lari/esp/esp-idf/components/newlib/include/utime.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/sys/utime.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/sys/termios.h \
  /home/lari/esp/esp-idf/components/newlib/include/dirent.h \
  /home/lari/esp/esp-idf/components/vfs/include/sys/dirent.h \
  /home/lari/esp/esp-idf/components/newlib/platform_include/esp_newlib.h \
@@ -180,11 +168,7 @@ cpu_start.o: /home/lari/esp/esp-idf/components/esp32/cpu_start.c \
  /home/lari/esp/esp-idf/components/esp32/pm_impl.h \
  /home/lari/esp/esp-idf/components/xtensa-debug-module/include/trax.h \
  /home/lari/esp/esp-idf/components/xtensa-debug-module/include/eri.h \
- /home/lari/esp/esp-idf/components/xtensa-debug-module/include/xtensa-debug-module.h \
- /home/lari/esp/esp-idf/components/app_update/include/esp_ota_ops.h \
- /home/lari/esp/esp-idf/components/bootloader_support/include/esp_image_format.h \
- /home/lari/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
- /home/lari/esp/esp-idf/components/esp32/include/esp_flash_data_types.h
+ /home/lari/esp/esp-idf/components/xtensa-debug-module/include/xtensa-debug-module.h
 
 /home/lari/esp/esp-idf/components/newlib/include/stdint.h:
 
@@ -222,8 +206,6 @@ cpu_start.o: /home/lari/esp/esp-idf/components/esp32/cpu_start.c \
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h:
 
-/home/lari/esp/test_lari/build/include/sdkconfig.h:
-
 /home/lari/esp/esp-idf/components/esp32/include/esp_err.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/stdio.h:
@@ -237,6 +219,8 @@ cpu_start.o: /home/lari/esp/esp-idf/components/esp32/cpu_start.c \
 /home/lari/esp/esp-idf/components/newlib/include/sys/stdio.h:
 
 /home/lari/esp/esp-idf/components/newlib/platform_include/assert.h:
+
+/home/lari/esp/test_lari/build/include/sdkconfig.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/stdlib.h:
 
@@ -305,8 +289,6 @@ cpu_start.o: /home/lari/esp/esp-idf/components/esp32/cpu_start.c \
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h:
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/timer_group_reg.h:
-
-/home/lari/esp/esp-idf/components/soc/include/soc/rtc_wdt.h:
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/efuse_reg.h:
 
@@ -406,11 +388,7 @@ cpu_start.o: /home/lari/esp/esp-idf/components/esp32/cpu_start.c \
 
 /home/lari/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h:
 
-/home/lari/esp/esp-idf/components/esp_event/include/esp_event.h:
-
-/home/lari/esp/esp-idf/components/esp_event/include/esp_event_base.h:
-
-/home/lari/esp/esp-idf/components/esp32/include/esp_event_legacy.h:
+/home/lari/esp/esp-idf/components/esp32/include/esp_event.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_wifi_types.h:
 
@@ -424,13 +402,11 @@ cpu_start.o: /home/lari/esp/esp-idf/components/esp32/cpu_start.c \
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_wifi_types.h:
 
-/home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:
+/home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/ip_addr.h:
 
-/home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:
+/home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/opt.h:
 
-/home/lari/esp/esp-idf/components/lwip/port/esp32/include/lwipopts.h:
-
-/home/lari/esp/esp-idf/components/newlib/platform_include/time.h:
+/home/lari/esp/esp-idf/components/lwip/include/lwip/port/lwipopts.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/time.h:
 
@@ -456,37 +432,27 @@ cpu_start.o: /home/lari/esp/esp-idf/components/esp32/cpu_start.c \
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_task.h:
 
-/home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
+/home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/debug.h:
 
-/home/lari/esp/esp-idf/components/lwip/port/esp32/include/netif/dhcp_state.h:
+/home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/arch.h:
 
-/home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:
-
-/home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:
-
-/home/lari/esp/esp-idf/components/lwip/port/esp32/include/arch/cc.h:
-
-/home/lari/esp/esp-idf/components/newlib/platform_include/errno.h:
+/home/lari/esp/esp-idf/components/lwip/include/lwip/port/arch/cc.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/errno.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/errno.h:
 
-/home/lari/esp/esp-idf/components/lwip/port/esp32/include/arch/sys_arch.h:
+/home/lari/esp/esp-idf/components/lwip/include/lwip/port/arch/sys_arch.h:
 
-/home/lari/esp/esp-idf/components/lwip/port/esp32/include/arch/vfs_lwip.h:
+/home/lari/esp/esp-idf/components/lwip/include/lwip/port/arch/vfs_lwip.h:
 
-/home/lari/esp/esp-idf/components/newlib/include/inttypes.h:
+/home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/def.h:
 
-/home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h:
+/home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/ip4_addr.h:
 
-/home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip4_addr.h:
+/home/lari/esp/esp-idf/components/lwip/include/lwip/lwip/ip6_addr.h:
 
-/home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/ip6_addr.h:
-
-/home/lari/esp/esp-idf/components/lwip/lwip/src/include/lwip/def.h:
-
-/home/lari/esp/esp-idf/components/lwip/include/apps/dhcpserver/dhcpserver.h:
+/home/lari/esp/esp-idf/components/lwip/include/lwip/apps/dhcpserver.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_ipc.h:
 
@@ -497,12 +463,6 @@ cpu_start.o: /home/lari/esp/esp-idf/components/esp32/cpu_start.c \
 /home/lari/esp/esp-idf/components/vfs/include/esp_vfs_dev.h:
 
 /home/lari/esp/esp-idf/components/vfs/include/esp_vfs.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/utime.h:
-
-/home/lari/esp/esp-idf/components/newlib/platform_include/sys/utime.h:
-
-/home/lari/esp/esp-idf/components/newlib/platform_include/sys/termios.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/dirent.h:
 
@@ -549,12 +509,4 @@ cpu_start.o: /home/lari/esp/esp-idf/components/esp32/cpu_start.c \
 /home/lari/esp/esp-idf/components/xtensa-debug-module/include/eri.h:
 
 /home/lari/esp/esp-idf/components/xtensa-debug-module/include/xtensa-debug-module.h:
-
-/home/lari/esp/esp-idf/components/app_update/include/esp_ota_ops.h:
-
-/home/lari/esp/esp-idf/components/bootloader_support/include/esp_image_format.h:
-
-/home/lari/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h:
-
-/home/lari/esp/esp-idf/components/esp32/include/esp_flash_data_types.h:
 /home/lari/esp/esp-idf/components/esp32/./cpu_start.c:

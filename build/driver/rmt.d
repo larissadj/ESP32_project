@@ -79,7 +79,7 @@ rmt.o: /home/lari/esp/esp-idf/components/driver/rmt.c \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/semphr.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h \
- /home/lari/esp/esp-idf/components/esp_ringbuf/include/freertos/ringbuf.h \
+ /home/lari/esp/esp-idf/components/freertos/include/freertos/ringbuf.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h \
  /home/lari/esp/esp-idf/components/log/include/esp_log.h \
  /home/lari/esp/esp-idf/components/log/include/esp_log_internal.h \
@@ -253,7 +253,7 @@ rmt.o: /home/lari/esp/esp-idf/components/driver/rmt.c \
 
 /home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h:
 
-/home/lari/esp/esp-idf/components/esp_ringbuf/include/freertos/ringbuf.h:
+/home/lari/esp/esp-idf/components/freertos/include/freertos/ringbuf.h:
 
 /home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h:
 

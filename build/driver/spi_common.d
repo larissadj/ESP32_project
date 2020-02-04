@@ -94,8 +94,7 @@ spi_common.o: /home/lari/esp/esp-idf/components/driver/spi_common.c \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/uart_reg.h \
  /home/lari/esp/esp-idf/components/log/include/esp_log.h \
  /home/lari/esp/esp-idf/components/log/include/esp_log_internal.h \
- /home/lari/esp/esp-idf/components/driver/include/driver/periph_ctrl.h \
- /home/lari/esp/esp-idf/components/newlib/include/stdatomic.h
+ /home/lari/esp/esp-idf/components/driver/include/driver/periph_ctrl.h
 
 /home/lari/esp/esp-idf/components/newlib/include/string.h:
 
@@ -288,6 +287,4 @@ spi_common.o: /home/lari/esp/esp-idf/components/driver/spi_common.c \
 /home/lari/esp/esp-idf/components/log/include/esp_log_internal.h:
 
 /home/lari/esp/esp-idf/components/driver/include/driver/periph_ctrl.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/stdatomic.h:
 /home/lari/esp/esp-idf/components/driver/./spi_common.c:

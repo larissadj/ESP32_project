@@ -91,15 +91,13 @@ panic.o: /home/lari/esp/esp-idf/components/esp32/panic.c \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/timer_group_reg.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/rtc.h \
- /home/lari/esp/esp-idf/components/soc/include/soc/rtc_wdt.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_gdbstub.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_panic.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_core_dump.h \
  /home/lari/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_cache_err_int.h \
  /home/lari/esp/esp-idf/components/app_trace/include/esp_app_trace.h \
- /home/lari/esp/esp-idf/components/app_trace/include/esp_app_trace_util.h \
- /home/lari/esp/esp-idf/components/esp32/esp_system_internal.h
+ /home/lari/esp/esp-idf/components/app_trace/include/esp_app_trace_util.h
 
 /home/lari/esp/esp-idf/components/newlib/include/stdlib.h:
 
@@ -285,8 +283,6 @@ panic.o: /home/lari/esp/esp-idf/components/esp32/panic.c \
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/rtc.h:
 
-/home/lari/esp/esp-idf/components/soc/include/soc/rtc_wdt.h:
-
 /home/lari/esp/esp-idf/components/esp32/include/esp_gdbstub.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_panic.h:
@@ -300,6 +296,4 @@ panic.o: /home/lari/esp/esp-idf/components/esp32/panic.c \
 /home/lari/esp/esp-idf/components/app_trace/include/esp_app_trace.h:
 
 /home/lari/esp/esp-idf/components/app_trace/include/esp_app_trace_util.h:
-
-/home/lari/esp/esp-idf/components/esp32/esp_system_internal.h:
 /home/lari/esp/esp-idf/components/esp32/./panic.c:

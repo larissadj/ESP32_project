@@ -103,14 +103,10 @@ esp_spiffs.o: /home/lari/esp/esp-idf/components/spiffs/esp_spiffs.c \
  /home/lari/esp/esp-idf/components/newlib/include/sys/fcntl.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/_default_fcntl.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/stat.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/time.h \
  /home/lari/esp/esp-idf/components/vfs/include/esp_vfs.h \
- /home/lari/esp/esp-idf/components/newlib/include/utime.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/sys/utime.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/time.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/sys/termios.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/spi_flash.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/spi_reg.h \
  /home/lari/esp/esp-idf/components/spiffs/spiffs_api.h
@@ -323,21 +319,13 @@ esp_spiffs.o: /home/lari/esp/esp-idf/components/spiffs/esp_spiffs.c \
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/stat.h:
 
-/home/lari/esp/esp-idf/components/newlib/platform_include/time.h:
-
 /home/lari/esp/esp-idf/components/newlib/include/time.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/machine/time.h:
 
 /home/lari/esp/esp-idf/components/vfs/include/esp_vfs.h:
 
-/home/lari/esp/esp-idf/components/newlib/include/utime.h:
-
-/home/lari/esp/esp-idf/components/newlib/platform_include/sys/utime.h:
-
 /home/lari/esp/esp-idf/components/newlib/include/sys/time.h:
-
-/home/lari/esp/esp-idf/components/newlib/platform_include/sys/termios.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/rom/spi_flash.h:
 

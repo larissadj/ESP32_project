@@ -36,10 +36,7 @@ sdspi_transaction.o: \
  /home/lari/esp/esp-idf/components/log/include/esp_log_internal.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/sdmmc_reg.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- /home/lari/esp/esp-idf/components/soc/include/soc/sdmmc_periph.h \
- /home/lari/esp/esp-idf/components/soc/esp32/include/soc/sdmmc_pins.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/sdmmc_struct.h \
- /home/lari/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
  /home/lari/esp/esp-idf/components/driver/include/driver/sdmmc_types.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
@@ -76,6 +73,7 @@ sdspi_transaction.o: \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/gpio_struct.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/rtc_io_reg.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h \
+ /home/lari/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/gpio.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/gpio_pins.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_intr_alloc.h \
@@ -165,13 +163,7 @@ sdspi_transaction.o: \
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
 
-/home/lari/esp/esp-idf/components/soc/include/soc/sdmmc_periph.h:
-
-/home/lari/esp/esp-idf/components/soc/esp32/include/soc/sdmmc_pins.h:
-
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/sdmmc_struct.h:
-
-/home/lari/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h:
 
 /home/lari/esp/esp-idf/components/driver/include/driver/sdmmc_types.h:
 
@@ -244,6 +236,8 @@ sdspi_transaction.o: \
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/rtc_io_reg.h:
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h:
+
+/home/lari/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/rom/gpio.h:
 

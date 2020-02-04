@@ -28,8 +28,7 @@ lib/http_utils.o: \
  /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/newlib/include/assert.h \
  /home/lari/esp/esp-idf/components/esp_http_client/lib/include/http_utils.h \
- /home/lari/esp/esp-idf/components/newlib/include/sys/time.h \
- /home/lari/esp/esp-idf/components/tcp_transport/include/esp_transport_utils.h
+ /home/lari/esp/esp-idf/components/newlib/include/sys/time.h
 
 /home/lari/esp/esp-idf/components/newlib/include/string.h:
 
@@ -88,6 +87,4 @@ lib/http_utils.o: \
 /home/lari/esp/esp-idf/components/esp_http_client/lib/include/http_utils.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/time.h:
-
-/home/lari/esp/esp-idf/components/tcp_transport/include/esp_transport_utils.h:
 /home/lari/esp/esp-idf/components/esp_http_client/lib/http_utils.c:

@@ -29,13 +29,13 @@ port/esp_bignum.o: \
  /home/lari/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/lari/esp/esp-idf/components/newlib/include/alloca.h \
  /home/lari/esp/esp-idf/components/newlib/include/assert.h \
- /home/lari/esp/esp-idf/components/newlib/include/sys/param.h \
- /home/lari/esp/esp-idf/components/newlib/include/sys/syslimits.h \
- /home/lari/esp/esp-idf/components/newlib/include/machine/endian.h \
- /home/lari/esp/esp-idf/components/newlib/include/machine/param.h \
- /home/lari/esp/esp-idf/components/esp32/include/rom/bigint.h \
+ /home/lari/esp/esp-idf/components/mbedtls/port/include/mbedtls/bignum.h \
+ /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h \
+ /home/lari/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
+ /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdint.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/_intsup.h \
+ /home/lari/esp/esp-idf/components/esp32/include/rom/bigint.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/hwcrypto_reg.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_assert.h \
@@ -72,11 +72,6 @@ port/esp_bignum.o: \
  /home/lari/esp/esp-idf/components/log/include/esp_log.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/lari/esp/esp-idf/components/log/include/esp_log_internal.h \
- /home/lari/esp/esp-idf/components/mbedtls/port/include/mbedtls/bignum.h \
- /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h \
- /home/lari/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/lari/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
- /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_dport_access.h \
@@ -163,19 +158,19 @@ port/esp_bignum.o: \
 
 /home/lari/esp/esp-idf/components/newlib/include/assert.h:
 
-/home/lari/esp/esp-idf/components/newlib/include/sys/param.h:
+/home/lari/esp/esp-idf/components/mbedtls/port/include/mbedtls/bignum.h:
 
-/home/lari/esp/esp-idf/components/newlib/include/sys/syslimits.h:
+/home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h:
 
-/home/lari/esp/esp-idf/components/newlib/include/machine/endian.h:
+/home/lari/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
 
-/home/lari/esp/esp-idf/components/newlib/include/machine/param.h:
-
-/home/lari/esp/esp-idf/components/esp32/include/rom/bigint.h:
+/home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/stdint.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/_intsup.h:
+
+/home/lari/esp/esp-idf/components/esp32/include/rom/bigint.h:
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/hwcrypto_reg.h:
 
@@ -248,16 +243,6 @@ port/esp_bignum.o: \
 /home/lari/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 
 /home/lari/esp/esp-idf/components/log/include/esp_log_internal.h:
-
-/home/lari/esp/esp-idf/components/mbedtls/port/include/mbedtls/bignum.h:
-
-/home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h:
-
-/home/lari/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
-
-/home/lari/esp/esp-idf/components/mbedtls/port/include/esp_mem.h:
-
-/home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/dport_reg.h:
 

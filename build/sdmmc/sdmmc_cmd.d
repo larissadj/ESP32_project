@@ -1,5 +1,4 @@
 sdmmc_cmd.o: /home/lari/esp/esp-idf/components/sdmmc/sdmmc_cmd.c \
- /home/lari/esp/esp-idf/components/sdmmc/sdmmc_common.h \
  /home/lari/esp/esp-idf/components/newlib/include/string.h \
  /home/lari/esp/esp-idf/components/newlib/include/_ansi.h \
  /home/lari/esp/esp-idf/components/newlib/include/newlib.h \
@@ -90,8 +89,6 @@ sdmmc_cmd.o: /home/lari/esp/esp-idf/components/sdmmc/sdmmc_cmd.c \
  /home/lari/esp/esp-idf/components/newlib/include/sys/syslimits.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/endian.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/param.h
-
-/home/lari/esp/esp-idf/components/sdmmc/sdmmc_common.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/string.h:
 

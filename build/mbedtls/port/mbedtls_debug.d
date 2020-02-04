@@ -32,11 +32,9 @@ port/mbedtls_debug.o: \
  /home/lari/esp/esp-idf/components/log/include/esp_log_internal.h \
  /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform.h \
  /home/lari/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/lari/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
  /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /home/lari/esp/esp-idf/components/newlib/include/limits.h \
  /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdio.h \
@@ -124,15 +122,11 @@ port/mbedtls_debug.o: \
 
 /home/lari/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
 
-/home/lari/esp/esp-idf/components/mbedtls/port/include/esp_mem.h:
-
 /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/limits.h:
 
 /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h:
-
-/home/lari/esp/esp-idf/components/newlib/platform_include/time.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/time.h:
 

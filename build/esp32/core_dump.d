@@ -87,10 +87,7 @@ core_dump.o: /home/lari/esp/esp-idf/components/esp32/core_dump.c \
  /home/lari/esp/esp-idf/components/esp32/include/esp_panic.h \
  /home/lari/esp/esp-idf/components/spi_flash/include/esp_partition.h \
  /home/lari/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h \
- /home/lari/esp/esp-idf/components/esp32/include/esp_clk.h \
- /home/lari/esp/esp-idf/components/esp32/include/esp_core_dump.h \
- /home/lari/esp/esp-idf/components/log/include/esp_log.h \
- /home/lari/esp/esp-idf/components/log/include/esp_log_internal.h
+ /home/lari/esp/esp-idf/components/esp32/include/esp_clk.h
 
 /home/lari/esp/esp-idf/components/newlib/include/string.h:
 
@@ -269,10 +266,4 @@ core_dump.o: /home/lari/esp/esp-idf/components/esp32/core_dump.c \
 /home/lari/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_clk.h:
-
-/home/lari/esp/esp-idf/components/esp32/include/esp_core_dump.h:
-
-/home/lari/esp/esp-idf/components/log/include/esp_log.h:
-
-/home/lari/esp/esp-idf/components/log/include/esp_log_internal.h:
 /home/lari/esp/esp-idf/components/esp32/./core_dump.c:

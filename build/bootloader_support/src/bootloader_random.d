@@ -1,6 +1,6 @@
 src/bootloader_random.o: \
  /home/lari/esp/esp-idf/components/bootloader_support/src/bootloader_random.c \
- /home/lari/esp/esp-idf/components/bootloader_support/include/bootloader_random.h \
+ /home/lari/esp/esp-idf/components/bootloader_support/include_priv/bootloader_random.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdint.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/_default_types.h \
@@ -76,7 +76,7 @@ src/bootloader_random.o: \
  /home/lari/esp/esp-idf/components/esp32/include/xtensa/config/system.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h
 
-/home/lari/esp/esp-idf/components/bootloader_support/include/bootloader_random.h:
+/home/lari/esp/esp-idf/components/bootloader_support/include_priv/bootloader_random.h:
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/cpu.h:
 

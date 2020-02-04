@@ -39,7 +39,6 @@ nghttp2/lib/nghttp2_frame.o: \
  /home/lari/esp/esp-idf/components/newlib/platform_include/assert.h \
  /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/newlib/include/assert.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/errno.h \
  /home/lari/esp/esp-idf/components/newlib/include/errno.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/errno.h \
  /home/lari/esp/esp-idf/components/nghttp/nghttp2/lib/nghttp2_helper.h \
@@ -124,8 +123,6 @@ nghttp2/lib/nghttp2_frame.o: \
 /home/lari/esp/test_lari/build/include/sdkconfig.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/assert.h:
-
-/home/lari/esp/esp-idf/components/newlib/platform_include/errno.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/errno.h:
 

@@ -3,7 +3,6 @@ src/bootloader_clock.o: \
  /home/lari/esp/esp-idf/components/esp32/include/rom/uart.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_types.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/lari/esp/test_lari/build/bootloader/../include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_assert.h \
@@ -14,6 +13,7 @@ src/bootloader_clock.o: \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_dport_access.h \
+ /home/lari/esp/test_lari/build/bootloader/../include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/uart_reg.h \
  /home/lari/esp/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /home/lari/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -34,8 +34,6 @@ src/bootloader_clock.o: \
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h:
 
-/home/lari/esp/test_lari/build/bootloader/../include/sdkconfig.h:
-
 /home/lari/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
@@ -55,6 +53,8 @@ src/bootloader_clock.o: \
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_dport_access.h:
+
+/home/lari/esp/test_lari/build/bootloader/../include/sdkconfig.h:
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/uart_reg.h:
 

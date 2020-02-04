@@ -1,5 +1,4 @@
 time.o: /home/lari/esp/esp-idf/components/newlib/time.c \
- /home/lari/esp/esp-idf/components/newlib/platform_include/errno.h \
  /home/lari/esp/esp-idf/components/newlib/include/errno.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/errno.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/reent.h \
@@ -18,7 +17,6 @@ time.o: /home/lari/esp/esp-idf/components/newlib/time.c \
  /home/lari/esp/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/lari/esp/esp-idf/components/newlib/include/alloca.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/types.h \
@@ -97,8 +95,6 @@ time.o: /home/lari/esp/esp-idf/components/newlib/time.c \
  /home/lari/esp/esp-idf/components/newlib/include/limits.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/list.h
 
-/home/lari/esp/esp-idf/components/newlib/platform_include/errno.h:
-
 /home/lari/esp/esp-idf/components/newlib/include/errno.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/errno.h:
@@ -134,8 +130,6 @@ time.o: /home/lari/esp/esp-idf/components/newlib/time.c \
 /home/lari/esp/esp-idf/components/newlib/include/machine/stdlib.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/alloca.h:
-
-/home/lari/esp/esp-idf/components/newlib/platform_include/time.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/time.h:
 

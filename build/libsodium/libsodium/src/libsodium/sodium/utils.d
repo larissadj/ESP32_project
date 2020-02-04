@@ -19,7 +19,6 @@ libsodium/src/libsodium/sodium/utils.o: \
  /home/lari/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/lari/esp/esp-idf/components/newlib/include/alloca.h \
  /home/lari/esp/esp-idf/components/newlib/include/assert.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/errno.h \
  /home/lari/esp/esp-idf/components/newlib/include/errno.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/errno.h \
  /home/lari/esp/esp-idf/components/newlib/include/limits.h \
@@ -76,8 +75,6 @@ libsodium/src/libsodium/sodium/utils.o: \
 /home/lari/esp/esp-idf/components/newlib/include/alloca.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/assert.h:
-
-/home/lari/esp/esp-idf/components/newlib/platform_include/errno.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/errno.h:
 

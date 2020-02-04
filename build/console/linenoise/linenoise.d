@@ -24,14 +24,12 @@ linenoise/linenoise.o: \
  /home/lari/esp/esp-idf/components/newlib/include/alloca.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdio.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/stdio.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/errno.h \
  /home/lari/esp/esp-idf/components/newlib/include/errno.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/errno.h \
  /home/lari/esp/esp-idf/components/newlib/include/string.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/string.h \
  /home/lari/esp/esp-idf/components/newlib/include/ctype.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/stat.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/fcntl.h \
@@ -86,8 +84,6 @@ linenoise/linenoise.o: \
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/stdio.h:
 
-/home/lari/esp/esp-idf/components/newlib/platform_include/errno.h:
-
 /home/lari/esp/esp-idf/components/newlib/include/errno.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/errno.h:
@@ -99,8 +95,6 @@ linenoise/linenoise.o: \
 /home/lari/esp/esp-idf/components/newlib/include/ctype.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/stat.h:
-
-/home/lari/esp/esp-idf/components/newlib/platform_include/time.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/time.h:
 

@@ -19,14 +19,11 @@ src/bootloader_common.o: \
  /home/lari/esp/esp-idf/components/bootloader_support/include/esp_secure_boot.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/efuse_reg.h \
  /home/lari/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
- /home/lari/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_flash.h \
+ /home/lari/esp/esp-idf/components/bootloader_support/include_priv/bootloader_flash.h \
  /home/lari/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h \
  /home/lari/esp/esp-idf/components/bootloader_support/include/bootloader_common.h \
- /home/lari/esp/esp-idf/components/bootloader_support/include/esp_image_format.h \
- /home/lari/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
  /home/lari/esp/esp-idf/components/soc/include/soc/gpio_periph.h \
- /home/lari/esp/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h \
- /home/lari/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_sha.h
+ /home/lari/esp/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h
 
 /home/lari/esp/test_lari/build/bootloader/../include/sdkconfig.h:
 
@@ -66,19 +63,13 @@ src/bootloader_common.o: \
 
 /home/lari/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h:
 
-/home/lari/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_flash.h:
+/home/lari/esp/esp-idf/components/bootloader_support/include_priv/bootloader_flash.h:
 
 /home/lari/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h:
 
 /home/lari/esp/esp-idf/components/bootloader_support/include/bootloader_common.h:
 
-/home/lari/esp/esp-idf/components/bootloader_support/include/esp_image_format.h:
-
-/home/lari/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h:
-
 /home/lari/esp/esp-idf/components/soc/include/soc/gpio_periph.h:
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h:
-
-/home/lari/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_sha.h:
 /home/lari/esp/esp-idf/components/bootloader_support/src/bootloader_common.c:

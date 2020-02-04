@@ -5,9 +5,10 @@ deps_config := \
 	/home/lari/esp/esp-idf/components/driver/Kconfig \
 	/home/lari/esp/esp-idf/components/esp32/Kconfig \
 	/home/lari/esp/esp-idf/components/esp_adc_cal/Kconfig \
+	/home/lari/esp/esp-idf/components/esp_common/Kconfig \
 	/home/lari/esp/esp-idf/components/esp_event/Kconfig \
 	/home/lari/esp/esp-idf/components/esp_http_client/Kconfig \
-	/home/lari/esp/esp-idf/components/esp_http_server/Kconfig \
+	/home/lari/esp/esp-idf/components/esp_wifi/Kconfig \
 	/home/lari/esp/esp-idf/components/ethernet/Kconfig \
 	/home/lari/esp/esp-idf/components/fatfs/Kconfig \
 	/home/lari/esp/esp-idf/components/freemodbus/Kconfig \
@@ -17,7 +18,6 @@ deps_config := \
 	/home/lari/esp/esp-idf/components/log/Kconfig \
 	/home/lari/esp/esp-idf/components/lwip/Kconfig \
 	/home/lari/esp/esp-idf/components/mbedtls/Kconfig \
-	/home/lari/esp/esp-idf/components/mdns/Kconfig \
 	/home/lari/esp/esp-idf/components/mqtt/Kconfig \
 	/home/lari/esp/esp-idf/components/nvs_flash/Kconfig \
 	/home/lari/esp/esp-idf/components/openssl/Kconfig \
@@ -28,7 +28,6 @@ deps_config := \
 	/home/lari/esp/esp-idf/components/unity/Kconfig \
 	/home/lari/esp/esp-idf/components/vfs/Kconfig \
 	/home/lari/esp/esp-idf/components/wear_levelling/Kconfig \
-	/home/lari/esp/esp-idf/components/app_update/Kconfig.projbuild \
 	/home/lari/esp/esp-idf/components/bootloader/Kconfig.projbuild \
 	/home/lari/esp/esp-idf/components/esptool_py/Kconfig.projbuild \
 	/home/lari/esp/esp-idf/components/partition_table/Kconfig.projbuild \
@@ -37,9 +36,6 @@ deps_config := \
 include/config/auto.conf: \
 	$(deps_config)
 
-ifneq "$(IDF_TARGET)" "esp32"
-include/config/auto.conf: FORCE
-endif
 ifneq "$(IDF_CMAKE)" "n"
 include/config/auto.conf: FORCE
 endif

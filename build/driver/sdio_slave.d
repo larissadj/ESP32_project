@@ -80,13 +80,10 @@ sdio_slave.o: /home/lari/esp/esp-idf/components/driver/sdio_slave.c \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/portmacro.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/queue.h \
- /home/lari/esp/esp-idf/components/soc/include/soc/sdio_slave_periph.h \
- /home/lari/esp/esp-idf/components/soc/esp32/include/soc/sdio_slave_pins.h \
- /home/lari/esp/esp-idf/components/soc/esp32/include/soc/slc_reg.h \
- /home/lari/esp/esp-idf/components/soc/esp32/include/soc/slc_struct.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/host_reg.h \
+ /home/lari/esp/esp-idf/components/soc/esp32/include/soc/slc_struct.h \
+ /home/lari/esp/esp-idf/components/soc/esp32/include/soc/slc_reg.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/host_struct.h \
- /home/lari/esp/esp-idf/components/soc/esp32/include/soc/hinf_reg.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/hinf_struct.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/lldesc.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/queue.h \
@@ -265,19 +262,13 @@ sdio_slave.o: /home/lari/esp/esp-idf/components/driver/sdio_slave.c \
 
 /home/lari/esp/esp-idf/components/esp32/include/rom/queue.h:
 
-/home/lari/esp/esp-idf/components/soc/include/soc/sdio_slave_periph.h:
-
-/home/lari/esp/esp-idf/components/soc/esp32/include/soc/sdio_slave_pins.h:
-
-/home/lari/esp/esp-idf/components/soc/esp32/include/soc/slc_reg.h:
+/home/lari/esp/esp-idf/components/soc/esp32/include/soc/host_reg.h:
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/slc_struct.h:
 
-/home/lari/esp/esp-idf/components/soc/esp32/include/soc/host_reg.h:
+/home/lari/esp/esp-idf/components/soc/esp32/include/soc/slc_reg.h:
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/host_struct.h:
-
-/home/lari/esp/esp-idf/components/soc/esp32/include/soc/hinf_reg.h:
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/hinf_struct.h:
 

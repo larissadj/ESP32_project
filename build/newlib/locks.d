@@ -16,7 +16,6 @@ locks.o: /home/lari/esp/esp-idf/components/newlib/locks.c \
  /home/lari/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/lari/esp/esp-idf/components/newlib/include/alloca.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdint.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/_intsup.h \
@@ -28,6 +27,7 @@ locks.o: /home/lari/esp/esp-idf/components/newlib/locks.c \
  /home/lari/esp/esp-idf/components/esp32/include/xtensa/config/tie.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
+ /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/lari/esp/esp-idf/components/esp32/include/xtensa/config/system.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/xtensa_context.h \
@@ -118,8 +118,6 @@ locks.o: /home/lari/esp/esp-idf/components/newlib/locks.c \
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h:
 
-/home/lari/esp/test_lari/build/include/sdkconfig.h:
-
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/cpu.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/stdint.h:
@@ -141,6 +139,8 @@ locks.o: /home/lari/esp/esp-idf/components/newlib/locks.c \
 /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
 /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
+
+/home/lari/esp/test_lari/build/include/sdkconfig.h:
 
 /home/lari/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

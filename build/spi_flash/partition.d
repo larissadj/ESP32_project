@@ -42,9 +42,6 @@ partition.o: /home/lari/esp/esp-idf/components/spi_flash/partition.c \
  /home/lari/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/lari/esp/esp-idf/components/log/include/esp_log_internal.h \
- /home/lari/esp/esp-idf/components/bootloader_support/include/bootloader_common.h \
- /home/lari/esp/esp-idf/components/bootloader_support/include/esp_image_format.h \
- /home/lari/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/queue.h
 
 /home/lari/esp/esp-idf/components/newlib/include/stdlib.h:
@@ -132,12 +129,6 @@ partition.o: /home/lari/esp/esp-idf/components/spi_flash/partition.c \
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
 
 /home/lari/esp/esp-idf/components/log/include/esp_log_internal.h:
-
-/home/lari/esp/esp-idf/components/bootloader_support/include/bootloader_common.h:
-
-/home/lari/esp/esp-idf/components/bootloader_support/include/esp_image_format.h:
-
-/home/lari/esp/esp-idf/components/bootloader_support/include/esp_flash_partitions.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/rom/queue.h:
 /home/lari/esp/esp-idf/components/spi_flash/./partition.c:

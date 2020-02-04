@@ -1,28 +1,24 @@
 src/ffsystem.o: /home/lari/esp/esp-idf/components/fatfs/src/ffsystem.c \
- /home/lari/esp/esp-idf/components/newlib/include/string.h \
- /home/lari/esp/esp-idf/components/newlib/include/_ansi.h \
- /home/lari/esp/esp-idf/components/newlib/include/newlib.h \
- /home/lari/esp/esp-idf/components/newlib/include/sys/config.h \
- /home/lari/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
- /home/lari/esp/esp-idf/components/newlib/include/sys/features.h \
- /home/lari/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h \
- /home/lari/esp/esp-idf/components/newlib/include/sys/reent.h \
- /home/lari/esp/esp-idf/components/newlib/include/_ansi.h \
- /home/lari/esp/esp-idf/components/newlib/include/sys/_types.h \
- /home/lari/esp/esp-idf/components/newlib/include/machine/_types.h \
- /home/lari/esp/esp-idf/components/newlib/include/machine/_default_types.h \
- /home/lari/esp/esp-idf/components/newlib/include/sys/lock.h \
- /home/lari/esp/esp-idf/components/newlib/include/sys/cdefs.h \
- /home/lari/esp/esp-idf/components/newlib/include/sys/string.h \
  /home/lari/esp/esp-idf/components/fatfs/src/ff.h \
  /home/lari/esp/esp-idf/components/fatfs/src/integer.h \
  /home/lari/esp/esp-idf/components/fatfs/src/ffconf.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/param.h \
+ /home/lari/esp/esp-idf/components/newlib/include/sys/config.h \
+ /home/lari/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
+ /home/lari/esp/esp-idf/components/newlib/include/sys/features.h \
+ /home/lari/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/syslimits.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/endian.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/param.h \
  /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
+ /home/lari/esp/esp-idf/components/newlib/include/sys/reent.h \
+ /home/lari/esp/esp-idf/components/newlib/include/_ansi.h \
+ /home/lari/esp/esp-idf/components/newlib/include/newlib.h \
+ /home/lari/esp/esp-idf/components/newlib/include/sys/_types.h \
+ /home/lari/esp/esp-idf/components/newlib/include/machine/_types.h \
+ /home/lari/esp/esp-idf/components/newlib/include/machine/_default_types.h \
+ /home/lari/esp/esp-idf/components/newlib/include/sys/lock.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdint.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
@@ -37,6 +33,8 @@ src/ffsystem.o: /home/lari/esp/esp-idf/components/fatfs/src/ffsystem.c \
  /home/lari/esp/esp-idf/components/esp32/include/xtensa/corebits.h \
  /home/lari/esp/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdlib.h \
+ /home/lari/esp/esp-idf/components/newlib/include/_ansi.h \
+ /home/lari/esp/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/lari/esp/esp-idf/components/newlib/include/alloca.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
@@ -87,11 +85,13 @@ src/ffsystem.o: /home/lari/esp/esp-idf/components/fatfs/src/ffsystem.c \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/semphr.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h
 
-/home/lari/esp/esp-idf/components/newlib/include/string.h:
+/home/lari/esp/esp-idf/components/fatfs/src/ff.h:
 
-/home/lari/esp/esp-idf/components/newlib/include/_ansi.h:
+/home/lari/esp/esp-idf/components/fatfs/src/integer.h:
 
-/home/lari/esp/esp-idf/components/newlib/include/newlib.h:
+/home/lari/esp/esp-idf/components/fatfs/src/ffconf.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/sys/param.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/config.h:
 
@@ -100,30 +100,6 @@ src/ffsystem.o: /home/lari/esp/esp-idf/components/fatfs/src/ffsystem.c \
 /home/lari/esp/esp-idf/components/newlib/include/sys/features.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/sys/reent.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/_ansi.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/sys/_types.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/machine/_types.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/machine/_default_types.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/sys/lock.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/sys/cdefs.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/sys/string.h:
-
-/home/lari/esp/esp-idf/components/fatfs/src/ff.h:
-
-/home/lari/esp/esp-idf/components/fatfs/src/integer.h:
-
-/home/lari/esp/esp-idf/components/fatfs/src/ffconf.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/sys/param.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/syslimits.h:
 
@@ -134,6 +110,20 @@ src/ffsystem.o: /home/lari/esp/esp-idf/components/fatfs/src/ffsystem.c \
 /home/lari/esp/test_lari/build/include/sdkconfig.h:
 
 /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/sys/reent.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/_ansi.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/newlib.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/sys/_types.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/machine/_types.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/machine/_default_types.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/sys/lock.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/stdint.h:
 
@@ -162,6 +152,10 @@ src/ffsystem.o: /home/lari/esp/esp-idf/components/fatfs/src/ffsystem.c \
 /home/lari/esp/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/stdlib.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/_ansi.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/sys/cdefs.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/machine/stdlib.h:
 

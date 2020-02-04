@@ -100,8 +100,9 @@ spi_master.o: /home/lari/esp/esp-idf/components/driver/spi_master.c \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/task.h \
  /home/lari/esp/esp-idf/components/newlib/include/limits.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/list.h \
- /home/lari/esp/esp-idf/components/driver/include/driver/periph_ctrl.h \
- /home/lari/esp/esp-idf/components/newlib/include/stdatomic.h
+ /home/lari/esp/esp-idf/components/freertos/include/freertos/ringbuf.h \
+ /home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h \
+ /home/lari/esp/esp-idf/components/driver/include/driver/periph_ctrl.h
 
 /home/lari/esp/esp-idf/components/newlib/include/string.h:
 
@@ -305,7 +306,9 @@ spi_master.o: /home/lari/esp/esp-idf/components/driver/spi_master.c \
 
 /home/lari/esp/esp-idf/components/freertos/include/freertos/list.h:
 
-/home/lari/esp/esp-idf/components/driver/include/driver/periph_ctrl.h:
+/home/lari/esp/esp-idf/components/freertos/include/freertos/ringbuf.h:
 
-/home/lari/esp/esp-idf/components/newlib/include/stdatomic.h:
+/home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h:
+
+/home/lari/esp/esp-idf/components/driver/include/driver/periph_ctrl.h:
 /home/lari/esp/esp-idf/components/driver/./spi_master.c:

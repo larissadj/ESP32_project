@@ -85,8 +85,6 @@ port.o: /home/lari/esp/esp-idf/components/freertos/port.c \
  /home/lari/esp/esp-idf/components/newlib/include/limits.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/list.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_panic.h \
- /home/lari/esp/esp-idf/components/log/include/esp_log.h \
- /home/lari/esp/esp-idf/components/log/include/esp_log_internal.h \
  /home/lari/esp/esp-idf/components/freertos/portmux_impl.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/portable.h \
  /home/lari/esp/esp-idf/components/freertos/portmux_impl.inc.h
@@ -262,10 +260,6 @@ port.o: /home/lari/esp/esp-idf/components/freertos/port.c \
 /home/lari/esp/esp-idf/components/freertos/include/freertos/list.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_panic.h:
-
-/home/lari/esp/esp-idf/components/log/include/esp_log.h:
-
-/home/lari/esp/esp-idf/components/log/include/esp_log_internal.h:
 
 /home/lari/esp/esp-idf/components/freertos/portmux_impl.h:
 

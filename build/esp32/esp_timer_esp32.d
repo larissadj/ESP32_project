@@ -60,10 +60,8 @@ esp_timer_esp32.o: \
  /home/lari/esp/esp-idf/components/esp32/include/xtensa/config/core-matmap.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/touch_channel.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_task.h \
- /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/lari/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
- /home/lari/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/lari/esp/esp-idf/components/log/include/esp_log.h \
+ /home/lari/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /home/lari/esp/esp-idf/components/log/include/esp_log_internal.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_clk.h \
  /home/lari/esp/esp-idf/components/esp32/esp_timer_impl.h \
@@ -71,6 +69,7 @@ esp_timer_esp32.o: \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/rtc.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
+ /home/lari/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/projdefs.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/portable.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
@@ -210,13 +209,9 @@ esp_timer_esp32.o: \
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_task.h:
 
-/home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
-
-/home/lari/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
+/home/lari/esp/esp-idf/components/log/include/esp_log.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
-
-/home/lari/esp/esp-idf/components/log/include/esp_log.h:
 
 /home/lari/esp/esp-idf/components/log/include/esp_log_internal.h:
 
@@ -231,6 +226,8 @@ esp_timer_esp32.o: \
 /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
 /home/lari/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
+
+/home/lari/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 
 /home/lari/esp/esp-idf/components/freertos/include/freertos/projdefs.h:
 

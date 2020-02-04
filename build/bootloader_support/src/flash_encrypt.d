@@ -16,7 +16,7 @@ src/flash_encrypt.o: \
  /home/lari/esp/esp-idf/components/newlib/include/sys/types.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/types.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/sched.h \
- /home/lari/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_flash.h \
+ /home/lari/esp/esp-idf/components/bootloader_support/include_priv/bootloader_flash.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdint.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_err.h \
@@ -46,8 +46,6 @@ src/flash_encrypt.o: \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/lari/esp/esp-idf/components/log/include/esp_log_internal.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/secure_boot.h \
- /home/lari/esp/esp-idf/components/soc/include/soc/rtc_wdt.h \
- /home/lari/esp/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/cache.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_dport_access.h \
@@ -97,7 +95,7 @@ src/flash_encrypt.o: \
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/sched.h:
 
-/home/lari/esp/esp-idf/components/bootloader_support/include_bootloader/bootloader_flash.h:
+/home/lari/esp/esp-idf/components/bootloader_support/include_priv/bootloader_flash.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/stdint.h:
 
@@ -156,10 +154,6 @@ src/flash_encrypt.o: \
 /home/lari/esp/esp-idf/components/log/include/esp_log_internal.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/rom/secure_boot.h:
-
-/home/lari/esp/esp-idf/components/soc/include/soc/rtc_wdt.h:
-
-/home/lari/esp/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/rom/cache.h:
 

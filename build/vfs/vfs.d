@@ -27,7 +27,6 @@ vfs.o: /home/lari/esp/esp-idf/components/vfs/vfs.c \
  /home/lari/esp/esp-idf/components/newlib/include/machine/types.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/stat.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/time.h \
  /home/lari/esp/esp-idf/components/vfs/include/sys/ioctl.h \
@@ -97,10 +96,7 @@ vfs.o: /home/lari/esp/esp-idf/components/vfs/vfs.c \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h \
  /home/lari/esp/esp-idf/components/vfs/include/esp_vfs.h \
  /home/lari/esp/esp-idf/components/newlib/include/unistd.h \
- /home/lari/esp/esp-idf/components/newlib/include/utime.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/sys/utime.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/time.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/sys/termios.h \
  /home/lari/esp/esp-idf/components/log/include/esp_log.h \
  /home/lari/esp/esp-idf/components/log/include/esp_log_internal.h
 
@@ -159,8 +155,6 @@ vfs.o: /home/lari/esp/esp-idf/components/vfs/vfs.c \
 /home/lari/esp/esp-idf/components/newlib/include/sys/sched.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/stat.h:
-
-/home/lari/esp/esp-idf/components/newlib/platform_include/time.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/time.h:
 
@@ -300,13 +294,7 @@ vfs.o: /home/lari/esp/esp-idf/components/vfs/vfs.c \
 
 /home/lari/esp/esp-idf/components/newlib/include/unistd.h:
 
-/home/lari/esp/esp-idf/components/newlib/include/utime.h:
-
-/home/lari/esp/esp-idf/components/newlib/platform_include/sys/utime.h:
-
 /home/lari/esp/esp-idf/components/newlib/include/sys/time.h:
-
-/home/lari/esp/esp-idf/components/newlib/platform_include/sys/termios.h:
 
 /home/lari/esp/esp-idf/components/log/include/esp_log.h:
 

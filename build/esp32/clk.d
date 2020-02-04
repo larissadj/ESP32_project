@@ -43,13 +43,12 @@ clk.o: /home/lari/esp/esp-idf/components/esp32/clk.c \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/rtc.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/rtc.h \
- /home/lari/esp/esp-idf/components/soc/include/soc/rtc_wdt.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h \
+ /home/lari/esp/esp-idf/components/soc/esp32/include/soc/i2s_reg.h \
+ /home/lari/esp/esp-idf/components/driver/include/driver/periph_ctrl.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdio.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/stdio.h \
- /home/lari/esp/esp-idf/components/soc/esp32/include/soc/i2s_reg.h \
- /home/lari/esp/esp-idf/components/driver/include/driver/periph_ctrl.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_dport_access.h \
@@ -66,15 +65,7 @@ clk.o: /home/lari/esp/esp-idf/components/esp32/clk.c \
  /home/lari/esp/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
  /home/lari/esp/esp-idf/components/esp32/include/xtensa/core-macros.h \
- /home/lari/esp/esp-idf/components/bootloader_support/include/bootloader_clock.h \
- /home/lari/esp/esp-idf/components/driver/include/driver/spi_common.h \
- /home/lari/esp/esp-idf/components/esp32/include/rom/lldesc.h \
- /home/lari/esp/esp-idf/components/esp32/include/rom/queue.h \
- /home/lari/esp/esp-idf/components/soc/include/soc/spi_periph.h \
- /home/lari/esp/esp-idf/components/soc/esp32/include/soc/spi_pins.h \
- /home/lari/esp/esp-idf/components/soc/esp32/include/soc/spi_reg.h \
- /home/lari/esp/esp-idf/components/soc/esp32/include/soc/spi_struct.h \
- /home/lari/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h
+ /home/lari/esp/esp-idf/components/bootloader_support/include/bootloader_clock.h
 
 /home/lari/esp/esp-idf/components/newlib/include/stdint.h:
 
@@ -164,19 +155,17 @@ clk.o: /home/lari/esp/esp-idf/components/esp32/clk.c \
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/rtc.h:
 
-/home/lari/esp/esp-idf/components/soc/include/soc/rtc_wdt.h:
-
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h:
+
+/home/lari/esp/esp-idf/components/soc/esp32/include/soc/i2s_reg.h:
+
+/home/lari/esp/esp-idf/components/driver/include/driver/periph_ctrl.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_err.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/stdio.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/stdio.h:
-
-/home/lari/esp/esp-idf/components/soc/esp32/include/soc/i2s_reg.h:
-
-/home/lari/esp/esp-idf/components/driver/include/driver/periph_ctrl.h:
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/dport_reg.h:
 
@@ -211,20 +200,4 @@ clk.o: /home/lari/esp/esp-idf/components/esp32/clk.c \
 /home/lari/esp/esp-idf/components/esp32/include/xtensa/core-macros.h:
 
 /home/lari/esp/esp-idf/components/bootloader_support/include/bootloader_clock.h:
-
-/home/lari/esp/esp-idf/components/driver/include/driver/spi_common.h:
-
-/home/lari/esp/esp-idf/components/esp32/include/rom/lldesc.h:
-
-/home/lari/esp/esp-idf/components/esp32/include/rom/queue.h:
-
-/home/lari/esp/esp-idf/components/soc/include/soc/spi_periph.h:
-
-/home/lari/esp/esp-idf/components/soc/esp32/include/soc/spi_pins.h:
-
-/home/lari/esp/esp-idf/components/soc/esp32/include/soc/spi_reg.h:
-
-/home/lari/esp/esp-idf/components/soc/esp32/include/soc/spi_struct.h:
-
-/home/lari/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h:
 /home/lari/esp/esp-idf/components/esp32/./clk.c:

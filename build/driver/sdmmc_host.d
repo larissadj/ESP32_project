@@ -36,8 +36,11 @@ sdmmc_host.o: /home/lari/esp/esp-idf/components/driver/sdmmc_host.c \
  /home/lari/esp/esp-idf/components/newlib/include/machine/types.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/stdio.h \
- /home/lari/esp/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h \
+ /home/lari/esp/esp-idf/components/soc/esp32/include/soc/sdmmc_struct.h \
+ /home/lari/esp/esp-idf/components/soc/esp32/include/soc/sdmmc_reg.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/lari/esp/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h \
+ /home/lari/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
  /home/lari/esp/esp-idf/components/esp32/include/rom/gpio.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/gpio_reg.h \
@@ -46,7 +49,6 @@ sdmmc_host.o: /home/lari/esp/esp-idf/components/driver/sdmmc_host.c \
  /home/lari/esp/esp-idf/components/esp32/include/esp_types.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/gpio_struct.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/rtc_io_reg.h \
- /home/lari/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
  /home/lari/esp/esp-idf/components/soc/include/soc/gpio_periph.h \
  /home/lari/esp/esp-idf/components/driver/include/driver/sdmmc_host.h \
  /home/lari/esp/esp-idf/components/driver/include/driver/sdmmc_types.h \
@@ -91,10 +93,6 @@ sdmmc_host.o: /home/lari/esp/esp-idf/components/driver/sdmmc_host.c \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
  /home/lari/esp/esp-idf/components/driver/sdmmc_private.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h \
- /home/lari/esp/esp-idf/components/soc/include/soc/sdmmc_periph.h \
- /home/lari/esp/esp-idf/components/soc/esp32/include/soc/sdmmc_pins.h \
- /home/lari/esp/esp-idf/components/soc/esp32/include/soc/sdmmc_reg.h \
- /home/lari/esp/esp-idf/components/soc/esp32/include/soc/sdmmc_struct.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/semphr.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h
 
@@ -172,9 +170,15 @@ sdmmc_host.o: /home/lari/esp/esp-idf/components/driver/sdmmc_host.c \
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/stdio.h:
 
-/home/lari/esp/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h:
+/home/lari/esp/esp-idf/components/soc/esp32/include/soc/sdmmc_struct.h:
+
+/home/lari/esp/esp-idf/components/soc/esp32/include/soc/sdmmc_reg.h:
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/home/lari/esp/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h:
+
+/home/lari/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h:
 
 /home/lari/esp/esp-idf/components/esp32/include/rom/gpio.h:
 
@@ -191,8 +195,6 @@ sdmmc_host.o: /home/lari/esp/esp-idf/components/driver/sdmmc_host.c \
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:
 
 /home/lari/esp/esp-idf/components/soc/esp32/include/soc/rtc_io_reg.h:
-
-/home/lari/esp/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h:
 
 /home/lari/esp/esp-idf/components/soc/include/soc/gpio_periph.h:
 
@@ -281,14 +283,6 @@ sdmmc_host.o: /home/lari/esp/esp-idf/components/driver/sdmmc_host.c \
 /home/lari/esp/esp-idf/components/driver/sdmmc_private.h:
 
 /home/lari/esp/esp-idf/components/freertos/include/freertos/queue.h:
-
-/home/lari/esp/esp-idf/components/soc/include/soc/sdmmc_periph.h:
-
-/home/lari/esp/esp-idf/components/soc/esp32/include/soc/sdmmc_pins.h:
-
-/home/lari/esp/esp-idf/components/soc/esp32/include/soc/sdmmc_reg.h:
-
-/home/lari/esp/esp-idf/components/soc/esp32/include/soc/sdmmc_struct.h:
 
 /home/lari/esp/esp-idf/components/freertos/include/freertos/semphr.h:
 

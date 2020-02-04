@@ -81,7 +81,6 @@ hello_panic.o: /home/lari/esp/test_lari/main/hello_panic.c \
  /home/lari/esp/esp-idf/components/newlib/include/limits.h \
  /home/lari/esp/esp-idf/components/freertos/include/freertos/list.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/stat.h \
- /home/lari/esp/esp-idf/components/newlib/platform_include/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/fcntl.h \
@@ -90,7 +89,16 @@ hello_panic.o: /home/lari/esp/test_lari/main/hello_panic.c \
  /home/lari/esp/esp-idf/components/newlib/include/sys/time.h \
  /home/lari/esp/esp-idf/components/newlib/include/unistd.h \
  /home/lari/esp/esp-idf/components/newlib/platform_include/sys/unistd.h \
- /home/lari/esp/esp-idf/components/newlib/include/sys/unistd.h
+ /home/lari/esp/esp-idf/components/newlib/include/sys/unistd.h \
+ /home/lari/esp/esp-idf/components/esp32/include/esp_deepsleep.h \
+ /home/lari/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h \
+ /home/lari/esp/esp-idf/components/esp32/include/xtensa/tie/xt_mul.h \
+ /home/lari/esp/esp-idf/components/esp32/include/unity.h \
+ /home/lari/esp/esp-idf/components/esp32/include/unity_internals.h \
+ /home/lari/esp/esp-idf/components/esp32/include/unity_config.h \
+ /home/lari/esp/esp-idf/components/newlib/include/setjmp.h \
+ /home/lari/esp/esp-idf/components/newlib/include/machine/setjmp.h \
+ /home/lari/esp/esp-idf/components/newlib/include/math.h
 
 /home/lari/esp/esp-idf/components/newlib/include/stdio.h:
 
@@ -256,8 +264,6 @@ hello_panic.o: /home/lari/esp/test_lari/main/hello_panic.c \
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/stat.h:
 
-/home/lari/esp/esp-idf/components/newlib/platform_include/time.h:
-
 /home/lari/esp/esp-idf/components/newlib/include/time.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/machine/time.h:
@@ -275,4 +281,22 @@ hello_panic.o: /home/lari/esp/test_lari/main/hello_panic.c \
 /home/lari/esp/esp-idf/components/newlib/platform_include/sys/unistd.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/sys/unistd.h:
+
+/home/lari/esp/esp-idf/components/esp32/include/esp_deepsleep.h:
+
+/home/lari/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h:
+
+/home/lari/esp/esp-idf/components/esp32/include/xtensa/tie/xt_mul.h:
+
+/home/lari/esp/esp-idf/components/esp32/include/unity.h:
+
+/home/lari/esp/esp-idf/components/esp32/include/unity_internals.h:
+
+/home/lari/esp/esp-idf/components/esp32/include/unity_config.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/setjmp.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/machine/setjmp.h:
+
+/home/lari/esp/esp-idf/components/newlib/include/math.h:
 /home/lari/esp/test_lari/main/./hello_panic.c:

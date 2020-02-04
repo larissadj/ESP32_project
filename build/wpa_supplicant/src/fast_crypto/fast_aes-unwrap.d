@@ -39,7 +39,6 @@ src/fast_crypto/fast_aes-unwrap.o: \
  /home/lari/esp/esp-idf/components/newlib/include/machine/endian.h \
  /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h \
  /home/lari/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/lari/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
  /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /home/lari/esp/esp-idf/components/newlib/include/limits.h \
  /home/lari/esp/esp-idf/components/mbedtls/port/include/aes_alt.h \
@@ -123,8 +122,6 @@ src/fast_crypto/fast_aes-unwrap.o: \
 /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h:
 
 /home/lari/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
-
-/home/lari/esp/esp-idf/components/mbedtls/port/include/esp_mem.h:
 
 /home/lari/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
 

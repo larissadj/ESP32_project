@@ -17,7 +17,6 @@ crosscore_int.o: /home/lari/esp/esp-idf/components/esp32/crosscore_int.c \
  /home/lari/esp/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/string.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h \
- /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/esp32/include/esp_err.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdio.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/types.h \
@@ -25,6 +24,7 @@ crosscore_int.o: /home/lari/esp/esp-idf/components/esp32/crosscore_int.c \
  /home/lari/esp/esp-idf/components/newlib/include/sys/sched.h \
  /home/lari/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /home/lari/esp/esp-idf/components/newlib/platform_include/assert.h \
+ /home/lari/esp/test_lari/build/include/sdkconfig.h \
  /home/lari/esp/esp-idf/components/newlib/include/stdlib.h \
  /home/lari/esp/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/lari/esp/esp-idf/components/newlib/include/alloca.h \
@@ -130,8 +130,6 @@ crosscore_int.o: /home/lari/esp/esp-idf/components/esp32/crosscore_int.c \
 
 /home/lari/esp/esp-idf/components/esp32/include/esp_attr.h:
 
-/home/lari/esp/test_lari/build/include/sdkconfig.h:
-
 /home/lari/esp/esp-idf/components/esp32/include/esp_err.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/stdio.h:
@@ -145,6 +143,8 @@ crosscore_int.o: /home/lari/esp/esp-idf/components/esp32/crosscore_int.c \
 /home/lari/esp/esp-idf/components/newlib/include/sys/stdio.h:
 
 /home/lari/esp/esp-idf/components/newlib/platform_include/assert.h:
+
+/home/lari/esp/test_lari/build/include/sdkconfig.h:
 
 /home/lari/esp/esp-idf/components/newlib/include/stdlib.h:
 

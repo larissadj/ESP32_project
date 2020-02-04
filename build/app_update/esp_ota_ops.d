@@ -97,12 +97,7 @@ esp_ota_ops.o: /home/lari/esp/esp-idf/components/app_update/esp_ota_ops.c \
  /home/lari/esp/esp-idf/components/esp32/include/esp_dport_access.h \
  /home/lari/esp/esp-idf/components/soc/esp32/include/soc/uart_reg.h \
  /home/lari/esp/esp-idf/components/log/include/esp_log.h \
- /home/lari/esp/esp-idf/components/log/include/esp_log_internal.h \
- /home/lari/esp/esp-idf/components/bootloader_support/include/bootloader_common.h \
- /home/lari/esp/esp-idf/components/newlib/include/sys/param.h \
- /home/lari/esp/esp-idf/components/newlib/include/sys/syslimits.h \
- /home/lari/esp/esp-idf/components/newlib/include/machine/endian.h \
- /home/lari/esp/esp-idf/components/newlib/include/machine/param.h
+ /home/lari/esp/esp-idf/components/log/include/esp_log_internal.h
 
 /home/lari/esp/esp-idf/components/newlib/include/stdint.h:
 
@@ -301,14 +296,4 @@ esp_ota_ops.o: /home/lari/esp/esp-idf/components/app_update/esp_ota_ops.c \
 /home/lari/esp/esp-idf/components/log/include/esp_log.h:
 
 /home/lari/esp/esp-idf/components/log/include/esp_log_internal.h:
-
-/home/lari/esp/esp-idf/components/bootloader_support/include/bootloader_common.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/sys/param.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/sys/syslimits.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/machine/endian.h:
-
-/home/lari/esp/esp-idf/components/newlib/include/machine/param.h:
 /home/lari/esp/esp-idf/components/app_update/./esp_ota_ops.c:
